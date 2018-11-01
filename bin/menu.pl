@@ -26,7 +26,7 @@ for my $M (@menu) {
 	$m =~ s/\@/\;/g;
 	
 	my $main = $m;
-	my @dmain = split(/\//, $main);
+	my @dmain = split(/\;/, $main);
 	$main = $dmain[0];
 	$main = 'act' . $main;
 	
