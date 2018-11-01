@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 
-
 open (DAT1, ">../tmp/menu.txt");
 my @menu = <DATA>;
 
@@ -32,7 +31,6 @@ for my $M (@menu) {
 	
 	print DAT1 "get '/$m' => sub {template '$template' => { 'title' => '$title', '$main' => 'class=\"active\"' };};\n";
 }
-
 
 __DATA__
 Home
