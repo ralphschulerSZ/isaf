@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--
+Template Name: Edgpress
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title><% title %></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <!--<h1><a href="/">ISAF 2020</a></h1>-->
+	
+	
+	<p><a href="/"><img src="/images/logo.jpg"></a></p>
+    <h1>114. Innerschweizer Schwing- und Älplerfest</h1>
+	<h1>Schwyz XY. Juli 2020</h1>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+    <nav id="mainav">
+      <ul class="clear">
+        <li <%acthome%>><a href="/">Home</a></li>
+		<li <%actfotos%>><a href="/fotos">Fotos</a></li>
+        <li <%actbesucher_helfer%>><a href="/besucher_helfer">Besucher / Helfer</a>
+          <ul>
+            <li><a href="/besucher_helfer;festprogramm">Festprogramm</a></li>
+            <li><a href="/besucher_helfer;tickets">Tickets</a></li>
+			<li><a href="/besucher_helfer;helfer">Helfer</a></li>
+			<li><a href="/besucher_helfer;besucher">Besucher</a></li>
+			<li><a href="/besucher_helfer;festgelaende">Festgelände</a></li>
+          </ul>		
+		</li>		
+        <li <%actgaben%>><a href="/gaben">Gaben</a>
+          <ul>
+            <li><a href="/gaben;gaben">Gaben</a></li>
+            <li><a href="/gaben;lebendpreise">Lebendpreise</a></li>
+			<li><a href="/gaben;schwingerfreunde">Schwingerfreunde</a></li>
+			<li><a href="/gaben;festfuehrer">Festführer</a></li>
+          </ul>		
+		</li>		
+        <li <%actschwingen%>><a href="/schwingen">Schwingen</a>
+          <ul>
+            <li><a href="/schwingen;schwingerliste">Schwingerliste</a></li>
+            <li><a href="/schwingen;programmschwingfest">Programm Schwingfest</a></li>
+			<li><a href="/schwingen;ehrendamen">Ehrendamen</a></li>
+			<li><a href="/schwingen;steinstossen">Steinstossen</a></li>
+          </ul>		
+		</li>
+        <li <%actsponsoren%>><a href="/sponsoren">Sponsoren</a>
+          <ul>
+            <li><a href="/sponsoren;fest-partner">Fest-Partner</a></li>
+            <li><a href="/sponsoren;schwing-partner">Schwing-Partner</a></li>
+			<li><a href="/sponsoren;kranz-partner">Kranz-Partner</a></li>
+			<li><a href="/sponsoren;personal-partner">Personal-Partner</a></li>
+			<li><a href="/sponsoren;arena-partner">Arena-Partner</a></li>
+			<li><a href="/sponsoren;ring-partner">Ring-Partner</a></li>
+			<li><a href="/sponsoren;medien-partner">Medien-Partner</a></li>			
+          </ul>		
+		</li>
+        <li <%actkontakt%>><a href="/kontakt">Kontakt</a>
+          <ul>
+            <li><a href="/kontakt;kontaktformular">Kontaktformular</a></li>
+            <li><a href="/kontakt;organisationskommite">Organisationskommite</a></li>
+			<li><a href="/kontakt;medienakkreditierung">Medienakkreditierung</a></li>
+			<li><a href="/kontakt;organigramm">Organigramm</a></li>
+			<li><a href="/kontakt;schwingklubmythen">Schwingklub Mythen</a></li>		
+          </ul>		
+		</li>
+        <li <%actdummy%>><a class="drop" href="#">Dummy</a>
+          <ul>
+            <li><a href="#">Level 2</a></li>
+            <li><a class="drop" href="#">Level 2 + Drop</a>
+              <ul>
+                <li><a href="#">Level 3</a></li>
+                <li><a href="#">Level 3</a></li>
+                <li><a href="#">Level 3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Level 2</a></li>
+          </ul>
+        </li>		
+		<li <%acttemplates%>><a class="drop" href="#">Templates</a>
+          <ul>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/fullwidth">Full Width</a></li>
+            <li><a href="/sidebarleft">Sidebar Left</a></li>
+            <li><a href="/sidebarright">Sidebar Right</a></li>
+            <li><a href="/basicgrid">Basic Grid</a></li>
+            <li><a href="/fonticons">Font Icons</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+</div>
+
+
+<% content %>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">Kontakt</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+          Postfach 1234, 6430 Schwyz
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +41 (41) 888 99 00</li>
+        <li><i class="fa fa-envelope-o"></i> info@isaf2020.ch</li>
+      </ul>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="https://www.facebook.com/isaf2020/"><i class="fa fa-facebook"></i></a></li>
+        <!--<li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>-->
+      </ul>
+    </div>
+<!--    <div class="one_third">
+      <h6 class="heading">In faucibus orci luctus</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Ultrices posuere cubilia</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+            <p class="nospace">Lorem laoreet blandit donec mollis lacinia massa tincidunt malesuada [&hellip;]</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Curae cras tincidunt eros</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+            <p class="nospace">In id semper turpis in tristique dui ut ac mauris magna nunc eros enim [&hellip;]</p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Tincidunt facilisis eros ut</h6>
+      <p class="nospace btmspace-30">Pulvinar venenatis commodo sed accumsan eu erat nunc ante sagittis a dolor in.</p>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+-->
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">© ISAF 2020</p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></br>Powered by <a href="http://perldancer.org/">Dancer</a> 1.3202</p>
+	
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

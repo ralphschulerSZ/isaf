@@ -1,0 +1,34 @@
+<style type="text/css">
+/* DEMO ONLY */
+.container .demo{text-align:center;}
+.container .demo div{padding:8px 0;}
+.container .demo div:nth-child(odd){color:#FFFFFF; background:#CCCCCC;}
+.container .demo div:nth-child(even){color:#FFFFFF; background:#979797;}
+@media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
+/* DEMO ONLY */
+</style>
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <h2>ISAF 2020 Bilder</h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first"><a href="/fotos/gallerie1"><img src="https://i.ytimg.com/vi/L2wHfduws7g/maxresdefault.jpg"</img></a>Schwinger</div>
+		<div class="one_quarter"><a href="/fotos/gallerie2"><img src="http://www.mve.at/images/upload/musiker/Ehrendamen.JPG"</img></a>Ehrendamen</div>
+        <div class="one_quarter">Muni</div>
+        <div class="one_quarter">etc.</div>
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>

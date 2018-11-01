@@ -1,0 +1,19 @@
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading">Tellus malesuada</h3>
+      <p>Mauris ornare laoreet nec aliquet nisi tincidunt quis maecenas tristique.</p>
+      <footer>
+        <ul class="nospace inline pushright">
+          <li><a class="btn" href="#">Morbi fringilla</a></li>
+          <li><a class="btn inverse" href="#">Nec convallis</a></li>
+        </ul>
+      </footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
