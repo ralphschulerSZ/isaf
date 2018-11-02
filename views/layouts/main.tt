@@ -24,6 +24,7 @@ Licence URI: https://www.os-templates.com/template-terms
 	  $('.slider').bxSlider(
 	  {
 		pager: false,
+		startSlide:0,
 		}
 	  );
 	});

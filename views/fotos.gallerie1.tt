@@ -9,7 +9,6 @@
 	
 	<div class="slider">
 		<div><img src="/images/slides/1/001.jpg"></div>
-		<div><img src="/images/slides/1/001.jpg"></div>
 		<div><img src="/images/slides/1/002.jpg"></div>
 		<div><img src="/images/slides/1/003.jpg"></div>
 		<div><img src="/images/slides/1/004.jpg"></div>
@@ -19,7 +18,7 @@
 		<div><img src="/images/slides/1/008.jpg"></div>
 		<div><img src="/images/slides/1/009.jpg"></div>
 		<div><img src="/images/slides/1/010.jpg"></div>
-		<!-- <div><img src="/images/slides/1/011.jpg"></div>
+		<div><img src="/images/slides/1/011.jpg"></div>
 		<div><img src="/images/slides/1/012.jpg"></div>
 		<div><img src="/images/slides/1/013.jpg"></div>
 		<div><img src="/images/slides/1/014.jpg"></div>
@@ -47,7 +46,7 @@
 		<div><img src="/images/slides/1/036.jpg"></div>
 		<div><img src="/images/slides/1/037.jpg"></div>
 		<div><img src="/images/slides/1/038.jpg"></div>
-		<div><img src="/images/slides/1/039.jpg"></div> -->
+		<div><img src="/images/slides/1/039.jpg"></div>
 	</div>
 	
     <!-- ################################################################################################ -->
