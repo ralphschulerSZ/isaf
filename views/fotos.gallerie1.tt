@@ -1,68 +1,54 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper bgded overlay dark" style="background-image:url('../images/demo/backgrounds/03.jpg');">
-  <div id="breadcrumb" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <h6 class="heading">Gallery</h6>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Lorem</a></li>
-      <li><a href="#">Ipsum</a></li>
-      <li><a href="#">Dolor</a></li>
-    </ul>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <div class="wrapper row3">
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
-      <!-- ################################################################################################ -->
-      <div id="gallery">
-        <figure>
-          <header class="heading">Gallery Title Goes Here</header>
-          <ul class="nospace clear">
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
-          </ul>
-          <figcaption>Gallery Description Goes Here</figcaption>
-        </figure>
-      </div>
-      <!-- ################################################################################################ -->
-      <!-- ################################################################################################ -->
-      <nav class="pagination">
-        <ul>
-          <li><a href="#">&laquo; Previous</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><strong>&hellip;</strong></li>
-          <li><a href="#">6</a></li>
-          <li class="current"><strong>7</strong></li>
-          <li><a href="#">8</a></li>
-          <li><a href="#">9</a></li>
-          <li><strong>&hellip;</strong></li>
-          <li><a href="#">14</a></li>
-          <li><a href="#">15</a></li>
-          <li><a href="#">Next &raquo;</a></li>
-        </ul>
-      </nav>
-      <!-- ################################################################################################ -->
-    </div>
+	
+	<div class="slider">
+		<div><img src="/images/slides/1/001.jpg" title="Wanderung Wannentritt"></div>
+		<div><img src="/images/slides/1/002.jpg"></div>
+		<div><img src="/images/slides/1/003.jpg"></div>
+		<div><img src="/images/slides/1/004.jpg"></div>
+		<div><img src="/images/slides/1/005.jpg"></div>
+		<div><img src="/images/slides/1/006.jpg"></div>
+		<div><img src="/images/slides/1/007.jpg"></div>
+		<div><img src="/images/slides/1/008.jpg"></div>
+		<div><img src="/images/slides/1/009.jpg"></div>
+		<div><img src="/images/slides/1/010.jpg"></div>
+		<div><img src="/images/slides/1/011.jpg"></div>
+		<div><img src="/images/slides/1/012.jpg"></div>
+		<div><img src="/images/slides/1/013.jpg"></div>
+		<div><img src="/images/slides/1/014.jpg"></div>
+		<div><img src="/images/slides/1/015.jpg"></div>
+		<div><img src="/images/slides/1/016.jpg"></div>
+		<div><img src="/images/slides/1/017.jpg"></div>
+		<div><img src="/images/slides/1/018.jpg"></div>
+		<div><img src="/images/slides/1/019.jpg"></div>
+		<div><img src="/images/slides/1/020.jpg"></div>
+		<div><img src="/images/slides/1/021.jpg"></div>
+		<div><img src="/images/slides/1/022.jpg"></div>
+		<div><img src="/images/slides/1/023.jpg"></div>
+		<div><img src="/images/slides/1/024.jpg"></div>
+		<div><img src="/images/slides/1/025.jpg"></div>
+		<div><img src="/images/slides/1/026.jpg"></div>
+		<div><img src="/images/slides/1/027.jpg"></div>
+		<div><img src="/images/slides/1/028.jpg"></div>
+		<div><img src="/images/slides/1/029.jpg"></div>
+		<div><img src="/images/slides/1/030.jpg"></div>
+		<div><img src="/images/slides/1/031.jpg"></div>
+		<div><img src="/images/slides/1/032.jpg"></div>
+		<div><img src="/images/slides/1/033.jpg"></div>
+		<div><img src="/images/slides/1/034.jpg"></div>
+		<div><img src="/images/slides/1/035.jpg"></div>
+		<div><img src="/images/slides/1/036.jpg"></div>
+		<div><img src="/images/slides/1/037.jpg"></div>
+		<div><img src="/images/slides/1/038.jpg"></div>
+		<div><img src="/images/slides/1/039.jpg"></div>
+	</div>
+	
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>

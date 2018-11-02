@@ -18,21 +18,27 @@
 			<p>Wie besprochen an der Sitzung vom 31.10.2018:</br></br>Dieses Beispiel dient dazu, um zu veranschaulichen, was es für Alternativen gäbe zum klassischen Drop-Down Menü. Es gäbe zwar Mehraufwand, dieser wäre aber überschaubar.</p>
 		</div>
 		<ul class="nospace group services">
-		  <li class="one_third first">
+		  <li class="one_quarter first">
 			  <footer><a class="btn" href="/gaben;gaben">Gaben</a></footer>
 		  </li>
-		  <li class="one_third">
+		  <li class="one_quarter">
 			  <footer><a class="btn" href="/gaben;lebendpreise">Lebendpreise</a></footer>
 		  </li>
-		  <li class="one_third">
+		  <li class="one_quarter">
 			  <footer><a class="btn" href="/gaben;schwingerfreunde">Schwingerfreunde</a></footer>
 		  </li>
+		  <li class="one_quarter">
+			  <footer><a class="btn" href="/gaben;schwingerfreunde">Festführer</a></footer>
+		  </li>		  
 		</ul>
-		<ul class="nospace group services">
-		  <li class="one_third first">
-			  <footer><a class="btn" href="/gaben;festfuehrer">Festführer</a></footer>
-		  </li>
-		</ul>
+
+		
+		
+		
+
+		
+		
+		
 		<!-- ################################################################################################ -->
 		<!-- / main body -->
 		<div class="clear"></div>

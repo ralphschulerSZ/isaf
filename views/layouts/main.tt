@@ -9,10 +9,33 @@ Licence URI: https://www.os-templates.com/template-terms
 <html lang="de">
 <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
-<title><% title %></title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+	<title><% title %></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+     
+	<!-- BxSlider Code -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+	  $('.slider').bxSlider(
+	  {
+		  auto: true,
+		  autoControls: true,
+		  stopAutoOnClick: true,
+		  pager: false,
+		  captions: true,
+		  keyboardEnabled: true,
+		}
+	  );
+	});
+	</script>
+	<!-- Ende BxSlider Code -->
+
+
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -191,8 +214,8 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
-<script src="layout/scripts/jquery.min.js"></script>
-<script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.mobilemenu.js"></script>
+<!--<script src="/layout/scripts/jquery.min.js"></script>-->
+<script src="/layout/scripts/jquery.backtotop.js"></script>
+<script src="/layout/scripts/jquery.mobilemenu.js"></script>
 </body>
 </html>
