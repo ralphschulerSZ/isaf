@@ -41,12 +41,12 @@ get '/besucher_helfer;festprogramm' => sub {template 'besucher_helfer.festprogra
 get '/besucher_helfer;tickets' => sub {template 'besucher_helfer.tickets' => { 'title' => 'Besucher / Helfer, Tickets', 'actbesucher_helfer' => 'class="active"' };};
 get '/besucher_helfer;helfer' => sub {template 'besucher_helfer.helfer' => { 'title' => 'Besucher / Helfer, Helfer', 'actbesucher_helfer' => 'class="active"' };};
 get '/besucher_helfer;besucher' => sub {template 'besucher_helfer.besucher' => { 'title' => 'Besucher / Helfer, Besucher', 'actbesucher_helfer' => 'class="active"' };};
-get '/besucher_helfer;festgelaende' => sub {template 'besucher_helfer.festgelaende' => { 'title' => 'Besucher / Helfer, Festgelände', 'actbesucher_helfer' => 'class="active"' };};
+get '/besucher_helfer;festgelaende' => sub {template 'besucher_helfer.festgelaende' => { 'title' => 'Besucher / Helfer, Festgel&auml;nde', 'actbesucher_helfer' => 'class="active"' };};
 get '/gaben' => sub {template 'gaben' => { 'title' => 'Gaben', 'actgaben' => 'class="active"' };};
 get '/gaben;gaben' => sub {template 'gaben.gaben' => { 'title' => 'Gaben, Gaben', 'actgaben' => 'class="active"' };};
 get '/gaben;lebendpreise' => sub {template 'gaben.lebendpreise' => { 'title' => 'Gaben, Lebendpreise', 'actgaben' => 'class="active"' };};
 get '/gaben;schwingerfreunde' => sub {template 'gaben.schwingerfreunde' => { 'title' => 'Gaben, Schwingerfreunde', 'actgaben' => 'class="active"' };};
-get '/gaben;festfuehrer' => sub {template 'gaben.festfuehrer' => { 'title' => 'Gaben, Festführer', 'actgaben' => 'class="active"' };};
+get '/gaben;festfuehrer' => sub {template 'gaben.festfuehrer' => { 'title' => 'Gaben, Festf&uuml;hrer', 'actgaben' => 'class="active"' };};
 get '/schwingen' => sub {template 'schwingen' => { 'title' => 'Schwingen', 'actschwingen' => 'class="active"' };};
 get '/schwingen;schwingerliste' => sub {template 'schwingen.schwingerliste' => { 'title' => 'Schwingen, Schwingerliste', 'actschwingen' => 'class="active"' };};
 get '/schwingen;programmschwingfest' => sub {template 'schwingen.programmschwingfest' => { 'title' => 'Schwingen, Programm Schwingfest', 'actschwingen' => 'class="active"' };};
