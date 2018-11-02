@@ -7,28 +7,87 @@
 @media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
 /* DEMO ONLY */
 </style>
-
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
+  <div class="hoc container clear"> 
     <!-- ################################################################################################ -->
-    <div class="content"> 
-      <!-- ################################################################################################ -->
-      <h2>ISAF 2020 Bilder</h2>
-      <!-- ################################################################################################ -->
-      <div class="group btmspace-50 demo">
-        <div class="one_quarter first"><a href="/fotos/gallerie1"><img src="https://i.ytimg.com/vi/L2wHfduws7g/maxresdefault.jpg"</img></a>Schwinger</div>
-		<div class="one_quarter"><a href="/fotos/gallerie2"><img src="http://www.mve.at/images/upload/musiker/Ehrendamen.JPG"</img></a>Ehrendamen</div>
-        <div class="one_quarter">Muni</div>
-        <div class="one_quarter">etc.</div>
-      </div>
-      <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Fotogallerie</h6>
+      <p>Hier finden Sie Bilder zu diversen Anlässen:</p>
+    </div>
+    <div class="group latest">
+      <article class="one_third first">
+        <figure><a class="imgover" href="/fotos/gallerie1"><img src="/images/prototyp/pellet.jpg" alt=""></a></figure>
+        <div class="txtwrap">
+          <h4 class="heading">Bilder vom Schwingfest</h4>
+          <ul class="nospace meta">
+            <li><i class="fa fa-calendar"></i> Letzte Aktualisierung: 02.11.2018</li>
+          </ul>
+        </div>
+      </article>
+      <article class="one_third">
+        <figure><a class="imgover" href="/fotos/gallerie2"><img src="/images/prototyp/ehrendamen.jpg" alt=""></a></figure>
+        <div class="txtwrap">
+          <h4 class="heading">Ehrendamen</h4>
+          <ul class="nospace meta">
+            <li><i class="fa fa-calendar"></i> Letzte Aktualisierung: 02.11.2018</li>
+          </ul>
+        </div>
+      </article>
+      <article class="one_third">
+        <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
+        <div class="txtwrap">
+          <h4 class="heading">Lebendpreise</h4>
+          <ul class="nospace meta">
+			  <li><i class="fa fa-calendar"></i> Letzte Aktualisierung: 02.11.2018</li>
+          </ul>
+        </div>
+      </article>
     </div>
     <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
+  </div>
 </div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <div class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="group latest">
+      <article class="one_third first">
+        <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure><div class="txtwrap">
+          <h4 class="heading">etc.</h4>
+          <ul class="nospace meta">
+            <li><i class="fa fa-calendar"></i> Letzte Aktualisierung: 02.11.2018</li>
+          </ul>
+        </div>
+      </article>
+      <article class="one_third">
+		  <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
+		  <div class="txtwrap">
+          <h4 class="heading">etc.</h4>
+          <ul class="nospace meta">
+            <li><i class="fa fa-calendar"></i> Letzte Aktualisierung: 02.11.2018</li>
+          </ul>
+        </div>
+      </article>
+      <article class="one_third">
+        <figure><a class="imgover" href="#"><img src="images/demo/320x220.png" alt=""></a></figure>
+        <div class="txtwrap">
+          <h4 class="heading">etc.</h4>
+          <ul class="nospace meta">
+			  <li><i class="fa fa-calendar"></i> Letzte Aktualisierung: 02.11.2018</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+
+
+
+
