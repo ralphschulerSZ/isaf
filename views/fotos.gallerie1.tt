@@ -6,49 +6,15 @@
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
-	
-	<div class="slider">
-		<div><img src="/images/slides/1/001.jpg"></div>
-		<div><img src="/images/slides/1/002.jpg"></div>
-		<div><img src="/images/slides/1/003.jpg"></div>
-		<div><img src="/images/slides/1/004.jpg"></div>
-		<div><img src="/images/slides/1/005.jpg"></div>
-		<div><img src="/images/slides/1/006.jpg"></div>
-		<div><img src="/images/slides/1/007.jpg"></div>
-		<div><img src="/images/slides/1/008.jpg"></div>
-		<div><img src="/images/slides/1/009.jpg"></div>
-		<div><img src="/images/slides/1/010.jpg"></div>
-		<div><img src="/images/slides/1/011.jpg"></div>
-		<div><img src="/images/slides/1/012.jpg"></div>
-		<div><img src="/images/slides/1/013.jpg"></div>
-		<div><img src="/images/slides/1/014.jpg"></div>
-		<div><img src="/images/slides/1/015.jpg"></div>
-		<div><img src="/images/slides/1/016.jpg"></div>
-		<div><img src="/images/slides/1/017.jpg"></div>
-		<div><img src="/images/slides/1/018.jpg"></div>
-		<div><img src="/images/slides/1/019.jpg"></div>
-		<div><img src="/images/slides/1/020.jpg"></div>
-		<div><img src="/images/slides/1/021.jpg"></div>
-		<div><img src="/images/slides/1/022.jpg"></div>
-		<div><img src="/images/slides/1/023.jpg"></div>
-		<div><img src="/images/slides/1/024.jpg"></div>
-		<div><img src="/images/slides/1/025.jpg"></div>
-		<div><img src="/images/slides/1/026.jpg"></div>
-		<div><img src="/images/slides/1/027.jpg"></div>
-		<div><img src="/images/slides/1/028.jpg"></div>
-		<div><img src="/images/slides/1/029.jpg"></div>
-		<div><img src="/images/slides/1/030.jpg"></div>
-		<div><img src="/images/slides/1/031.jpg"></div>
-		<div><img src="/images/slides/1/032.jpg"></div>
-		<div><img src="/images/slides/1/033.jpg"></div>
-		<div><img src="/images/slides/1/034.jpg"></div>
-		<div><img src="/images/slides/1/035.jpg"></div>
-		<div><img src="/images/slides/1/036.jpg"></div>
-		<div><img src="/images/slides/1/037.jpg"></div>
-		<div><img src="/images/slides/1/038.jpg"></div>
-		<div><img src="/images/slides/1/039.jpg"></div>
-	</div>
-	
+		<div class="slider">
+			<div><img src="https://i.imgur.com/avKwtEB.jpg"></div>
+			<div><img src="https://i.imgur.com/MMqowPM.jpg"></div>
+			<div><img src="https://i.imgur.com/ApK1kIT.jpg"></div>
+			<div><img src="https://i.imgur.com/CnkVOF8.jpg"></div>
+			<div><img src="https://i.imgur.com/SXHQWSE.jpg"></div>
+			<div><img src="https://i.imgur.com/0GUYSok.jpg"></div>
+			<div><img src="https://i.imgur.com/NQMxzLC.jpg"></div>
+		</div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
