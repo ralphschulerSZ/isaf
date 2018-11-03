@@ -27,10 +27,10 @@ get '/fonticons' => sub {
     template 'fonticons' => { 'title' => 'ISAF2020 fonticons', 'activetemplates' => 'class="active"' };
 };
 
-get '/fotos/gallerie1' => sub {
+get '/fotos;gallerie1' => sub {
     template 'fotos.gallerie1' => { 'title' => 'Fotos, Gallerie 1', 'activefotos' => 'class="active"' };
 };
-get '/fotos/gallerie2' => sub {
+get '/fotos;gallerie2' => sub {
     template 'fotos.gallerie2' => { 'title' => 'Fotos, Gallerie 2', 'activefotos' => 'class="active"' };
 };
 

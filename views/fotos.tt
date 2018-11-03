@@ -19,7 +19,7 @@
     </div>
     <div class="group latest">
       <article class="one_third first">
-        <figure><a class="imgover" href="/fotos/gallerie1"><img src="/images/prototyp/pellet.jpg" alt=""></a></figure>
+        <figure><a class="imgover" href="/fotos;gallerie1"><img src="/images/prototyp/pellet.jpg" alt=""></a></figure>
         <div class="txtwrap">
           <h4 class="heading">Bilder vom Schwingfest</h4>
           <ul class="nospace meta">
@@ -28,7 +28,7 @@
         </div>
       </article>
       <article class="one_third">
-        <figure><a class="imgover" href="/fotos/gallerie2"><img src="/images/prototyp/ehrendamen.jpg" alt=""></a></figure>
+        <figure><a class="imgover" href="/fotos;gallerie2"><img src="/images/prototyp/ehrendamen.jpg" alt=""></a></figure>
         <div class="txtwrap">
           <h4 class="heading">Ehrendamen</h4>
           <ul class="nospace meta">
