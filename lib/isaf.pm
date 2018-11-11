@@ -1,5 +1,6 @@
 package isaf;
 use Dancer ':syntax';
+use formular;
 
 our $VERSION = '0.1';
 
