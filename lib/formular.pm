@@ -1,6 +1,10 @@
 package formular;
-
+use FindBin;
+use Cwd qw/realpath/;
 use Dancer ':syntax';
+my $appdir=realpath( "$FindBin::Bin/..");
+
+
 #use Encode;
 #use Webservice::CaptchasDotNet;
 #
@@ -58,11 +62,15 @@ post '/kontaktpost' => sub {
 	#$name = encode("iso-8859-1", $name);
 	#$comment = encode("iso-8859-1", $comment);
 	$comment =~ s/\'/''/g;
-	redirect '/';
 	
-	open(DAT, ">>./data/kontakt.html");
+	
+	
+	
+	open(DAT, ">>$appdir/data/kontakt.html");
 	print DAT "name: $name\n";
 	close(DAT);
+	
+	redirect '/';
 	
 };
 
