@@ -52,6 +52,22 @@ post '/kontaktpost' => sub {
     #                             letters => 4
     #                             );
 	
+	#Werte von reCAPTCHA
+	my $secret   = params->{secret};
+	my $grecaptcharesponse = params->{'g-recaptcha-response'};
+	my $remoteip = params->{remoteip};
+	
+	debug"reCAPTCHA";
+	debug($grecaptcharesponse);
+	debug"END reCAPTCHA";
+	
+	if ($grecaptcharesponse eq '') { #Checkbox "ich bin kein Roboter" wurde nicht angeklickt
+		debug "NNNNOOOOPPPPE";
+		redirect 'http://localhost:1760';
+		return;
+	}
+	
+	
 	my $name = params->{name};
 	my $email = params->{email};
 	my $comment = params->{comment};
