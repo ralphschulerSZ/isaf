@@ -58,7 +58,7 @@ Licence URI: https://www.os-templates.com/template-terms
       <ul class="clear">
         <li <%acthome%>><a href="/">Home</a></li>
 		<li <%actfotos%>><a href="/fotos">Fotos</a></li>
-        <li <%actbesucher_helfer%>><a href="/besucher_helfer">Besucher / Helfer</a>
+        <li <%actbesucher_helfer%>><a href="#">Besucher / Helfer</a>
           <ul>
             <li><a href="/besucher_helfer;festprogramm">Festprogramm</a></li>
             <li><a href="/besucher_helfer;tickets">Tickets</a></li>
@@ -67,7 +67,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<li><a href="/besucher_helfer;festgelaende">Festgelände</a></li>
           </ul>		
 		</li>		
-        <li <%actgaben%>><a href="/gaben">Gaben</a>
+        <li <%actgaben%>><a href="#">Gaben</a>
           <ul>
             <li><a href="/gaben;gaben">Gaben</a></li>
             <li><a href="/gaben;lebendpreise">Lebendpreise</a></li>
@@ -75,7 +75,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<li><a href="/gaben;festfuehrer">Festführer</a></li>
           </ul>		
 		</li>		
-        <li <%actschwingen%>><a href="/schwingen">Schwingen</a>
+        <li <%actschwingen%>><a href="#">Schwingen</a>
           <ul>
             <li><a href="/schwingen;schwingerliste">Schwingerliste</a></li>
             <li><a href="/schwingen;programmschwingfest">Programm Schwingfest</a></li>
@@ -83,7 +83,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<li><a href="/schwingen;steinstossen">Steinstossen</a></li>
           </ul>		
 		</li>
-        <li <%actsponsoren%>><a href="/sponsoren">Sponsoren</a>
+        <li <%actsponsoren%>><a href="#">Sponsoren</a>
           <ul>
             <li><a href="/sponsoren;fest-partner">Fest-Partner</a></li>
             <li><a href="/sponsoren;schwing-partner">Schwing-Partner</a></li>
@@ -94,7 +94,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<li><a href="/sponsoren;medien-partner">Medien-Partner</a></li>			
           </ul>		
 		</li>
-        <li <%actkontakt%>><a href="/kontakt">Kontakt</a>
+        <li <%actkontakt%>><a href="#">Kontakt</a>
           <ul>
             <li><a href="/kontakt;kontaktformular">Kontaktformular</a></li>
             <li><a href="/kontakt;organisationskommite">Organisationskommite</a></li>
