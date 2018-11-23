@@ -9,31 +9,25 @@
       <!-- ################################################################################################ -->
       
       <div id="comments">
-        <h2>Write A Comment</h2>
+        <h2>Bei Fragen und Anregungen stehen wir Ihnen gerne zur Verfügung.</h2>
         <form action="/kontaktpost" method="post">
           <div class="one_third first">
             <label for="name">Name <span>*</span></label>
             <input type="text" name="name" id="name" value="" size="22" required>
           </div>
           <div class="one_third">
-            <label for="email">Mail <span>*</span></label>
+            <label for="email">E-Mail <span>*</span></label>
             <input type="email" name="email" id="email" value="" size="22" required>
           </div>
-          <div class="one_third">
-            <label for="url">Website</label>
-            <input type="url" name="url" id="url" value="" size="22">
-          </div>
           <div class="block clear">
-            <label for="comment">Your Comment</label>
-            <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+            <label for="comment">Nachricht (max. 2000 Zeichen)</label>
+            <textarea name="comment" id="comment" cols="25" rows="10" maxlength="2000"></textarea>
           </div>
 		  
 		  <div class="g-recaptcha" data-sitekey="6LdlD3wUAAAAAIQqp4q_hHYMMVbW9W_nOIYGY7IH"></div>
 		  
           <div>
-            <input type="submit" name="submit" value="Submit Form">
-            &nbsp;
-            <input type="reset" name="reset" value="Reset Form">
+            <input type="submit" name="submit" value="absenden">
           </div>
         </form>
       </div>

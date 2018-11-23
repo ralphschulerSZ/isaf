@@ -29,3 +29,10 @@ template: "simple"
 # For session support enable the following line and see Dancer::Session
 # session: "YAML"
 
+plugins: 
+    reCAPTCHA: 
+        public_key: "6LdlD3wUAAAAAIQqp4q_hHYMMVbW9W_nOIYGY7IH"
+        private_key: "6LdlD3wUAAAAAIGfw0ygWdyWc2YjwwWoE8UdqOdS"
+        theme: "dark"
+        type: "image"
+        size: "normal"
