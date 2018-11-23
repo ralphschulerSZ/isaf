@@ -4,6 +4,8 @@ use Cwd qw/realpath/;
 use Dancer ':syntax';
 use Dancer::Plugin::reCAPTCHA;
 my $appdir=realpath( "$FindBin::Bin/..");
+#Wichtiger Hinweis: falls Modul reCAPTCHA nicht richtig funktioniert, muss. u.U.
+#noch folgendes Modul installiert werden: Net::SSLeay
 
 post '/kontaktpost' => sub {
 	my $response  = param( 'g-recaptcha-response' );
