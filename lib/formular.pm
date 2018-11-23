@@ -12,7 +12,7 @@ post '/kontaktpost' => sub {
 	my $result    = recaptcha_check( $response );
 	
 	unless ($result->{ success }) { #Checkbox "ich bin kein Roboter" wurde nicht angeklickt
-		template 'antispam';
+		template 'antispam', {'title' => 'Antispam'};
 	} else {
 		my $name = params->{name};
 		my $email = params->{email};
@@ -39,7 +39,7 @@ post '/kontaktpost' => sub {
 		print DAT "now: $now\n";
 		close(DAT);
 		
-		template 'kontaktok', {name => $name, email => $email, comment => $comment, ip => $ip, now => $now};
+		template 'kontaktok', {name => $name, email => $email, comment => $comment, ip => $ip, now => $now, 'title' => 'Kontaktanfrage'};
 	}	
 };
 
