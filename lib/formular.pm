@@ -32,11 +32,11 @@ post '/kontaktpost' => sub {
 		open(DAT, ">>$appdir/data/$ip.$now.txt");
 		print DAT "name: $name\n";
 		print DAT "email: $email\n";
+		print DAT "ip: $ip\n";
+		print DAT "now: $now\n";		
 		print DAT "-------------------------------\n";
 		print DAT "comment: $comment\n";
 		print DAT "-------------------------------\n";
-		print DAT "ip: $ip\n";
-		print DAT "now: $now\n";
 		close(DAT);
 		
 		template 'kontaktok', {name => $name, email => $email, comment => $comment, ip => $ip, now => $now, 'title' => 'Kontaktanfrage'};
