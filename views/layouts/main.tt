@@ -67,7 +67,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<li><a href="/besucher_helfer;festgelaende">Festgelände</a></li>
           </ul>		
 		</li>		
-        <li <%actgaben%>><a href="#">Gaben</a>
+        <li <%actgaben%>><a href="/gaben">Gaben</a>
           <ul>
             <li><a href="/gaben;gaben">Gaben</a></li>
             <li><a href="/gaben;lebendpreise">Lebendpreise</a></li>
