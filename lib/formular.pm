@@ -8,6 +8,7 @@ use Crypt::Lite;
 my $appdir=realpath( "$FindBin::Bin/..");
 #Wichtiger Hinweis: falls Modul reCAPTCHA nicht richtig funktioniert, muss. u.U.
 #noch folgendes Modul installiert werden: Net::SSLeay
+#es braucht zusätzlich noch "apt-get install mutt"
 
 post '/kontaktpost' => sub {
 	my $response  = param( 'g-recaptcha-response' );
@@ -22,13 +23,9 @@ post '/kontaktpost' => sub {
 		my $now = time();
 		my $ip = $ENV{'HTTP_X_FORWARDED_FOR'};
 		
-		unless (defined $ip) {
-			$ip = 'localhost';
-		}
+		$ip = 'localhost' unless (defined $ip);
 		
 		$comment =~ s/\n/<br>/g;
-		#$name = encode("iso-8859-1", $name);
-		#$comment = encode("iso-8859-1", $comment);
 		$comment =~ s/\'/''/g;
 		
 		open(DAT, ">>$appdir/data/$ip.$now.txt");
