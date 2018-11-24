@@ -22,7 +22,8 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{padding:30px 0; text-align:center;}
+#header{padding:0px 0; text-align:center;}
+/*Original:#header{padding:30px 0; text-align:center;}*/
 
 #header *{margin:0; padding:0; line-height:1;}
 #header h1{font-size:36px; letter-spacing:3px;}
