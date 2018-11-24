@@ -42,7 +42,7 @@ post '/kontaktpost' => sub {
 		close(DAT);
 		
 		my $crypt = Crypt::Lite->new( debug => 0, encoding => 'hex8' );
-		$decrypted_mail1 = $crypt->decrypt('43d8f6b5076e591c91aba97d7f50058da6f54e7b551188afa96d73557980fbb76828004180f4b4372f0142d3fab03b2c084784f6e23b2f0f13d4a7e53e', 'pf08d4');
+		my $decrypted_mail1 = $crypt->decrypt('43d8f6b5076e591c91aba97d7f50058da6f54e7b551188afa96d73557980fbb76828004180f4b4372f0142d3fab03b2c084784f6e23b2f0f13d4a7e53e', 'pf08d4');
 		
 		system("mutt -s \"Kontakt ISAF2020\" $decrypted_mail1 < $appdir/data/$ip.$now.txt");
 		
