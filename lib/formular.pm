@@ -21,6 +21,7 @@ post '/kontaktpost' => sub {
 		my $email = params->{email};
 		my $comment = params->{comment};
 		my $now = time();
+		my $nowl = localtime(time());
 		my $ip = $ENV{'HTTP_X_FORWARDED_FOR'};
 		
 		$ip = 'localhost' unless (defined $ip);
@@ -29,7 +30,8 @@ post '/kontaktpost' => sub {
 		print DAT "Name         : $name\n";
 		print DAT "Email        : $email\n";
 		print DAT "IP           : $ip\n";
-		print DAT "Timestamp    : $now\n";		
+		print DAT "Timestamp    : $now\n";
+		print DAT "Datum        : $nowl\n";
 		print DAT "Kommentar    :\n";
 		#print DAT "-------------------------------\n";
 		print DAT "$comment\n";
