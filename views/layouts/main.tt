@@ -103,7 +103,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<li><a href="http://www.mythenverband.ch/">Schwingerverband am Mythen</a></li>		
           </ul>		
 		</li>
-        <li <%actdummy%>><a class="drop" href="#">Dummy</a>
+        <!--<li <%actdummy%>><a class="drop" href="#">Dummy</a>
           <ul>
             <li><a href="#">Level 2</a></li>
             <li><a class="drop" href="#">Level 2 + Drop</a>
@@ -115,8 +115,8 @@ Licence URI: https://www.os-templates.com/template-terms
             </li>
             <li><a href="#">Level 2</a></li>
           </ul>
-        </li>		
-		<li <%acttemplates%>><a class="drop" href="#">Templates</a>
+        </li>-->		
+	<li <%acttemplates%>><a class="drop" href="#">Templates</a>
           <ul>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/fullwidth">Full Width</a></li>
