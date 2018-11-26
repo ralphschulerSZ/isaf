@@ -116,7 +116,7 @@ Licence URI: https://www.os-templates.com/template-terms
             <li><a href="#">Level 2</a></li>
           </ul>
         </li>-->		
-	<li <%acttemplates%>><a class="drop" href="#">Templates</a>
+	<li <%acttemplates%>><a href="#">Templates</a>
           <ul>
             <li><a href="/gallery">Gallery</a></li>
             <li><a href="/fullwidth">Full Width</a></li>
