@@ -17,7 +17,7 @@
 	
 	
     <div class="content"> 
-		<div align="right"><a class="btn" href="javascript:history.back()">X</a></div>
+		<div align="right"><a class="btn inverse" href="javascript:history.back()"><b>X</b></a></div>
 		<div class="slider">
 			<div><img src="https://i.imgur.com/avKwtEB.jpg" title="Wanderung über den Wannentritt im Herbst 2018"></div>
 			<div><img src="https://i.imgur.com/MMqowPM.jpg" title="Weiterer Beispieltext..."></div>
