@@ -5,10 +5,21 @@
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
+	
+	<style>
+		.container{padding:0px 0;}
+		.row3{color:#32353C; background-color:#000000;}
+		@media screen and (min-width:978px){
+			.hoc, .split{max-width:88%;}
+		}
+	</style>
+	
+	
     <div class="content"> 
+		<div align="right"><a class="btn" href="javascript:history.back()">X</a></div>
 		<div class="slider">
-			<div><img src="https://i.imgur.com/avKwtEB.jpg"></div>
-			<div><img src="https://i.imgur.com/MMqowPM.jpg"></div>
+			<div><img src="https://i.imgur.com/avKwtEB.jpg" title="Wanderung über den Wannentritt im Herbst 2018"></div>
+			<div><img src="https://i.imgur.com/MMqowPM.jpg" title="Weiterer Beispieltext..."></div>
 			<div><img src="https://i.imgur.com/ApK1kIT.jpg"></div>
 			<div><img src="https://i.imgur.com/CnkVOF8.jpg"></div>
 			<div><img src="https://i.imgur.com/SXHQWSE.jpg"></div>

@@ -29,8 +29,9 @@ get '/fonticons' => sub {
 };
 
 get '/fotos;gallerie1' => sub {
-    template 'fotos.gallerie1' => { 'title' => 'Fotos, Gallerie 1', 'activefotos' => 'class="active"' };
+    template 'fotos.gallerie1' => { 'title' => 'Fotos, Gallerie 1', 'activefotos' => 'class="active"' } , { layout => 'gallerie_main' };
 };
+
 get '/fotos;gallerie2' => sub {
     template 'fotos.gallerie2' => { 'title' => 'Fotos, Gallerie 2', 'activefotos' => 'class="active"' };
 };

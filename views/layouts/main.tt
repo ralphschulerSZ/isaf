@@ -13,24 +13,9 @@ Licence URI: https://www.os-templates.com/template-terms
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link href="/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-     
-	<!-- BxSlider Code -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-	<script>
-	$(document).ready(function(){
-	  $('.slider').bxSlider(
-	  {
-		pager: false,
-		startSlide:0,
-		}
-	  );
-	});
-	</script>
-	<!-- Ende BxSlider Code -->
-
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
