@@ -142,26 +142,22 @@ Licence URI: https://www.os-templates.com/template-terms
         <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>-->
       </ul>
     </div>
-<!--    <div class="one_third">
-      <h6 class="heading">In faucibus orci luctus</h6>
+    <div class="one_third">
+      <h6 class="heading">Links</h6>
       <ul class="nospace linklist">
         <li>
           <article>
-            <h2 class="nospace font-x1"><a href="#">Ultrices posuere cubilia</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-            <p class="nospace">Lorem laoreet blandit donec mollis lacinia massa tincidunt malesuada [&hellip;]</p>
+            <h2 class="nospace font-x1"><a href="http://www.mythenverband.ch">Schwingerverband am Mythen</a></h2>
           </article>
         </li>
         <li>
           <article>
-            <h2 class="nospace font-x1"><a href="#">Curae cras tincidunt eros</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-            <p class="nospace">In id semper turpis in tristique dui ut ac mauris magna nunc eros enim [&hellip;]</p>
+            <h2 class="nospace font-x1"><a href="http://www.schlussgang.ch">Schlussgang</a></h2>
           </article>
         </li>
       </ul>
     </div>
-    <div class="one_third">
+    <!--<div class="one_third">
       <h6 class="heading">Tincidunt facilisis eros ut</h6>
       <p class="nospace btmspace-30">Pulvinar venenatis commodo sed accumsan eu erat nunc ante sagittis a dolor in.</p>
       <form method="post" action="#">
@@ -172,8 +168,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <button type="submit" value="submit">Submit</button>
         </fieldset>
       </form>
-    </div>
--->
+    </div>-->
     <!-- ################################################################################################ -->
   </footer>
 </div>
