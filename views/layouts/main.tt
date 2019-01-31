@@ -113,6 +113,20 @@ Licence URI: https://www.os-templates.com/template-terms
     </nav>
 </div>
 
+<script>
+window.onscroll = function() {stiMen()};
+
+var navbar = document.getElementById("mainav");
+var offsetwert = navbar.offsetTop + 450;
+
+function stiMen() {
+  if (window.pageYOffset >= offsetwert) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 
 <% content %>
 
