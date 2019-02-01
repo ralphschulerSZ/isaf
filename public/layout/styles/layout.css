@@ -186,18 +186,35 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav form select{width:100%; padding:5px; border:1px solid;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 
-
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  background-color:#32353C;
+.page-header {
+    height: 200px;
+    background: #CCC;
 }
 
-.sticky ~ .stickycontent {
-  padding-top: 57px;
+.nav-wrapper {
+    height: 57px;
+    background: #333;
+}
+
+.nav-wrapper .nav {
+    height: 57px;
+    background: #333;
+    padding: 0 40px;
+    line-height: 80px;
+    color: #FFF;
+}
+
+.nav-wrapper .nav.fixed {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.page-content {
+    height: 1000px;
+    padding: 40px;
 }
 
 
@@ -280,7 +297,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#CBCBCB; background-color:#4A4E57;}
+body{color:#CBCBCB; background-color:#4A4E57;margin: 0;padding: 0;}
 a{color:#E43F21;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}

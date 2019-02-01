@@ -36,8 +36,9 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div id="stickynav">
+<div class="nav-wrapper">
 <div class="wrapper row4">
+	<div class="nav">
     <nav id="mainav">
       <ul class="clear">
         <li <%acthome%>><a href="/">Home</a></li>
@@ -112,23 +113,33 @@ Licence URI: https://www.os-templates.com/template-terms
         </li>
       </ul>
     </nav>
+	</div>
 </div>
 </div>
 
+
+<script src="jquery.min.js"></script>
 <script>
-window.onscroll = function() {stiMen()};
+// cache the element
+var $navBar = $('.nav');
 
-var navbar = document.getElementById("stickynav");
-var navbar2 = document.getElementById("mainav");
-var offsetwert = navbar2.offsetTop +400;
+// find original navigation bar position
+var navPos = $navBar.offset().top;
 
-function stiMen() {
-  if (window.pageYOffset >= offsetwert) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+// on scroll
+$(window).scroll(function() {
+
+    // get scroll position from top of the page
+    var scrollPos = $(this).scrollTop();
+
+    // check if scroll position is >= the nav position
+    if (scrollPos >= navPos) {
+        $navBar.addClass('fixed');
+    } else {
+        $navBar.removeClass('fixed');
+    }
+
+});
 </script>
 
 <div class="stickycontent">
