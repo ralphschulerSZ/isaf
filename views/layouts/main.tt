@@ -142,9 +142,7 @@ $(window).scroll(function() {
 });
 </script>
 
-<div class="stickycontent">
 <% content %>
-</div>
 
 <div class="wrapper row6">
   <header id="header" class="hoc clear"> 
