@@ -7,7 +7,6 @@ Licence: Free to use under our free template licence terms
 Licence URI: https://www.os-templates.com/template-terms
 -->
 <html lang="de">
-<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
 <head>
 	<title><% title %></title>
 	<meta charset="utf-8">
@@ -87,20 +86,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<li><a href="/kontakt;organigramm">Organigramm</a></li>
 			<li><a href="http://www.mythenverband.ch/">Schwingerverband am Mythen</a></li>		
           </ul>		
-		</li>
-        <!--<li <%actdummy%>><a class="drop" href="#">Dummy</a>
-          <ul>
-            <li><a href="#">Level 2</a></li>
-            <li><a class="drop" href="#">Level 2 + Drop</a>
-              <ul>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Level 2</a></li>
-          </ul>
-        </li>-->		
+		</li>		
 	<li <%acttemplates%>><a href="#">Templates</a>
           <ul>
             <li><a href="/gallery">Gallery</a></li>
@@ -145,33 +131,25 @@ $(window).scroll(function() {
 <% content %>
 
 <div class="wrapper row6">
-  <header id="header" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <!--<h1><a href="/">ISAF 2020</a></h1>-->
-	
-	<div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-    <!-- ################################################################################################ -->
-  </header>
+  <footer id="footer1" class="hoc clear"> 
+    <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAEECAQAAABDppYFAAAAE0lEQVR42mNkYGAcRaNoFDEwAACQuQEF8qD99AAAAABJRU5ErkJggg=="></div>
+    footer>
 </div>
-
-
-
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row7">
-<footer id="footer" class="hoc clear"> 
-<div class="sponsoren">
-		
-						
-						<ul>
+<footer id="footer2" class="hoc clear"> 
+<div class="sponsoren">						
+<ul>
 	<li style="width: 20%;"><a href="http://www.einsiedlerbier.ch/"><img src="/images/sponsoren/einsiedler.jpg" alt="sponsor"></a></li>
 	<li style="width: 20%;"><a href="https://www.mobiliar.ch/versicherungen-und-vorsorge/generalagenturen/lachen#gref"><img src="/images/sponsoren/mobiliar.jpg" alt="sponsor"></a></li>
 	<li style="width: 20%;"><a href="https://www.raiffeisen.ch/einsiedeln/de.html"><img src="/images/sponsoren/raiffeisen.jpg" alt="sponsor"></a></li>
 	<li style="width: 20%;"><a href="https://www.storen.ch/de"><img src="/images/sponsoren/schenker1.jpg" alt="schenker storen"></a></li>
 	<li style="width: 20%;"><a href="/index.php/sponsoren"><img src="/images/sponsoren/sponsoren.jpg" alt="sponsor"></a></li>
-</ul>		
-  </footer>
+</ul>
+</div>		
+</footer>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -179,7 +157,7 @@ $(window).scroll(function() {
 <div class="wrapper row4">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">© ISAF 2020</p>
+    <p class="fl_left"><a href= "/impressum">Impressum</a> | <a href= "/kontakt">Kontakt</a></p>
     <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></br>Powered by <a href="http://perldancer.org/">Dancer</a> 1.3202</p>
 	
     <!-- ################################################################################################ -->
