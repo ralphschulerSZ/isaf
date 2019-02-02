@@ -193,12 +193,12 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 .nav-wrapper {
     height: 57px;
-    background: #333;
+    background: #32353C;
 }
 
 .nav-wrapper .nav {
     height: 57px;
-    background: #333;
+    background: #32353C;
     padding: 0 40px;
     line-height: 80px;
     color: #FFF;
@@ -320,6 +320,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 .row4{color:#CBCBCB; background-color:#32353C;}
 .row5, .row5 a{color:#CBCBCB; background-color:#4A4E57;}
 .row6{background-color:#ffffff; background-image:url("/images/prototyp/talkessel.jpg")}
+.row7{background-color:#ffffff;)}
 
 
 /* Header */
@@ -465,3 +466,10 @@ table a, #comments a{background-color:inherit;}
 .bx-clone{
    display: none !important;
 }
+
+/* Sponsoren
+----------------------------------------------------------------------------------------------------------------*/
+.sponsoren{position: relative; z-index: 88;}
+.sponsoren ul{padding: 0; margin: 0; list-style: none;}
+.sponsoren ul li{display: inline-block; float: left;}
+
