@@ -8,6 +8,10 @@ get '/gallery' => sub {
     template 'gallery' => { 'title' => 'ISAF2020 Gallery', 'activetemplates' => 'class="active"' };
 };
 
+get '/kontakt;okcontent' => sub {
+    template 'kontakt.okcontent' => { 'title' => 'ISAF2020 OK | Inhalte', 'actkontakt' => 'class="active"' };
+};
+
 get '/fullwidth' => sub {
     template 'fullwidth' => { 'title' => 'ISAF2020 fullwidth', 'activetemplates' => 'class="active"' };
 };

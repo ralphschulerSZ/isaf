@@ -81,6 +81,7 @@ Licence URI: https://www.os-templates.com/template-terms
         <li <%actkontakt%>><a href="#">Kontakt</a>
           <ul>
             <li><a href="/kontakt;kontaktformular">Kontaktformular</a></li>
+			<li><a href="/kontakt;okcontent	">OK => Inhalte (temp.)</a></li>
             <li><a href="/kontakt;organisationskommite">Organisationskommite</a></li>
 			<li><a href="/kontakt;medienakkreditierung">Medienakkreditierung</a></li>
 			<li><a href="/kontakt;organigramm">Organigramm</a></li>
@@ -133,7 +134,7 @@ $(window).scroll(function() {
 <div class="wrapper row6">
   <footer id="footer1" class="hoc clear"> 
     <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAEECAQAAABDppYFAAAAE0lEQVR42mNkYGAcRaNoFDEwAACQuQEF8qD99AAAAABJRU5ErkJggg==" alt="ph"></div>
-    <footer>
+  </footer>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
