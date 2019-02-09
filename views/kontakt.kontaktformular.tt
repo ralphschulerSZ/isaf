@@ -9,7 +9,7 @@
       <!-- ################################################################################################ -->
       
       <div id="comments">
-        <h2>Bei Fragen und Anregungen stehen wir Ihnen gerne zur Verfügung.</h2>
+        <h2>Bei Fragen und Anregungen stehen wir Ihnen gerne zur Verf&uuml;gung.</h2>
         <form action="/kontaktpost" method="post">
           <div class="one_third first">
             <label for="name">Name <span>*</span></label>

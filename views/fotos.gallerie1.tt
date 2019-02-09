@@ -19,14 +19,15 @@
     <div class="content"> 
 		<div align="right"><a class="btn inverse" href="javascript:history.back()"><b>X</b></a></div>
 		<div class="slider">
-			<div><img src="https://i.imgur.com/avKwtEB.jpg" title="Wanderung über den Wannentritt im Herbst 2018"></div>
-			<div><img src="https://i.imgur.com/MMqowPM.jpg" title="Weiterer Beispieltext..."></div>
-			<div><img src="https://i.imgur.com/ApK1kIT.jpg"></div>
-			<div><img src="https://i.imgur.com/CnkVOF8.jpg"></div>
-			<div><img src="https://i.imgur.com/SXHQWSE.jpg"></div>
-			<div><img src="https://i.imgur.com/0GUYSok.jpg"></div>
-			<div><img src="https://i.imgur.com/NQMxzLC.jpg"></div>
+			<div><img src="https://i.imgur.com/avKwtEB.jpg" title="Wanderung &uuml;ber den Wannentritt im Herbst 2018" alt="Wanderung &uuml;ber den Wannentritt im Herbst 2018"></div>
+			<div><img src="https://i.imgur.com/MMqowPM.jpg" title="Weiterer Beispieltext..." alt="Weiterer Beispieltext..."></div>
+			<div><img src="https://i.imgur.com/ApK1kIT.jpg" alt=""></div>
+			<div><img src="https://i.imgur.com/CnkVOF8.jpg" alt=""></div>
+			<div><img src="https://i.imgur.com/SXHQWSE.jpg" alt=""></div>
+			<div><img src="https://i.imgur.com/0GUYSok.jpg" alt=""></div>
+			<div><img src="https://i.imgur.com/NQMxzLC.jpg" alt=""></div>
 		</div>
+    </div>		
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>

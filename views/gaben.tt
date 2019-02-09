@@ -14,8 +14,8 @@
 		<!-- main body -->
 		<!-- ################################################################################################ -->
 		<div class="sectiontitle">
-			<h6 class="heading">Beispiel Alternative oder Ergänzung zu Dropdown-Menü</h6>
-			<p>Wie besprochen an der Sitzung vom 31.10.2018:</br></br>Dieses Beispiel dient dazu, um zu veranschaulichen, was es für Alternativen gäbe zum klassischen Drop-Down Menü. Es gäbe zwar Mehraufwand, dieser wäre aber überschaubar.</p>
+			<h6 class="heading">Beispiel Alternative oder Erg&auml;nzung zu Dropdown-Men&uuml;</h6>
+			<p>Wie besprochen an der Sitzung vom 31.10.2018:<br><br>Dieses Beispiel dient dazu, um zu veranschaulichen, was es f&uuml;r Alternativen g&auml;be zum klassischen Drop-Down Men&uuml;. Es g&auml;be zwar Mehraufwand, dieser w&auml;re aber &uuml;berschaubar.</p>
 		</div>
 		<div class="group btmspace-50 demo">
 		    <ul class="nospace group services">
@@ -29,7 +29,7 @@
 			        <footer><a class="btn" href="/gaben;schwingerfreunde">Schwingerfreunde</a></footer>
 		        </li>
 		        <li class="one_quarter">
-			        <footer><a class="btn" href="/gaben;schwingerfreunde">Festführer</a></footer>
+			        <footer><a class="btn" href="/gaben;schwingerfreunde">Festf&uuml;hrer</a></footer>
 		        </li>		  
 		    </ul>
 		</div>

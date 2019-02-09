@@ -48,7 +48,7 @@ Licence URI: https://www.os-templates.com/template-terms
             <li><a href="/besucher_helfer;tickets">Tickets</a></li>
 			<li><a href="/besucher_helfer;helfer">Helfer</a></li>
 			<li><a href="/besucher_helfer;besucher">Besucher</a></li>
-			<li><a href="/besucher_helfer;festgelaende">Festgelände</a></li>
+			<li><a href="/besucher_helfer;festgelaende">Festgel&auml;nde</a></li>
           </ul>		
 		</li>		
         <li <%actgaben%>><a href="/gaben">Gaben</a>
@@ -56,7 +56,7 @@ Licence URI: https://www.os-templates.com/template-terms
             <li><a href="/gaben;gaben">Gaben</a></li>
             <li><a href="/gaben;lebendpreise">Lebendpreise</a></li>
 			<li><a href="/gaben;schwingerfreunde">Schwingerfreunde</a></li>
-			<li><a href="/gaben;festfuehrer">Festführer</a></li>
+			<li><a href="/gaben;festfuehrer">Festf&uuml;hrer</a></li>
           </ul>		
 		</li>		
         <li <%actschwingen%>><a href="#">Schwingen</a>
@@ -156,13 +156,24 @@ $(window).scroll(function() {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4">
-  <div id="copyright" class="hoc clear"> 
+  <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left"><a href= "/impressum">Impressum</a> | <a href= "/kontakt">Kontakt</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a><br>Powered by <a href="http://perldancer.org/">Dancer</a> 1.3202</p>
-	
+    <div class="one_third first">
+      
+      
+	  <a href="#">Impressum</a><br><a href="#">Datenschutzerkl&auml;rung</a><br><a href="/kontakt;kontaktformular">Kontakt</a>
+  
+    </div>
+    <div class="one_third">
+	    <ul class="faico clear">
+        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+		Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a><br>Powered by <a href="http://perldancer.org/">Dancer</a> 1.3202
+    </div>
     <!-- ################################################################################################ -->
-  </div>
+  </footer>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
