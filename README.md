@@ -7,4 +7,4 @@ perl app.pl
 
 Requirements:
 
-Please install Perl (http://perl.org) and the Dancer framework (http://perldancer.org) (e.g. cpanm Dancer).
+Please install Perl (http://perl.org) and the Dancer framework (https://metacpan.org/pod/Dancer, e.g. with cpanm Dancer).
