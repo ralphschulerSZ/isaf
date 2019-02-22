@@ -140,8 +140,17 @@ $(window).scroll(function() {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row7">
-<footer id="footer2" class="hoc clear"> 
-<div class="sponsoren">						
+<footer id="footer2" class="hoc clear">
+
+
+        <div class="one_quarter first"><a href="http://www.einsiedlerbier.ch/"><img src="/images/sponsoren/einsiedler.jpg" alt="sponsor"></a></div>
+        <div class="one_quarter"><a href="https://www.mobiliar.ch/versicherungen-und-vorsorge/generalagenturen/lachen#gref"><img src="/images/sponsoren/mobiliar.jpg" alt="sponsor"></a></div>
+        <div class="one_quarter"><a href="https://www.raiffeisen.ch/einsiedeln/de.html"><img src="/images/sponsoren/raiffeisen.jpg" alt="sponsor"></a></div>
+        <div class="one_quarter"><a href="https://www.storen.ch/de"><img src="/images/sponsoren/schenker1.jpg" alt="sponsor"></a></div>
+     
+
+ 
+<!--<div class="sponsoren">						
 <ul>
 	<li style="width: 20%;"><a href="http://www.einsiedlerbier.ch/"><img src="/images/sponsoren/einsiedler.jpg" alt="sponsor"></a></li>
 	<li style="width: 20%;"><a href="https://www.mobiliar.ch/versicherungen-und-vorsorge/generalagenturen/lachen#gref"><img src="/images/sponsoren/mobiliar.jpg" alt="sponsor"></a></li>
@@ -149,7 +158,7 @@ $(window).scroll(function() {
 	<li style="width: 20%;"><a href="https://www.storen.ch/de"><img src="/images/sponsoren/schenker1.jpg" alt="schenker storen"></a></li>
 	<li style="width: 20%;"><a href="/index.php/sponsoren"><img src="/images/sponsoren/sponsoren.jpg" alt="sponsor"></a></li>
 </ul>
-</div>
+</div>-->
 </footer>
 </div>
 <!-- ################################################################################################ -->
