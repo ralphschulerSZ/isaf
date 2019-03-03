@@ -80,8 +80,8 @@ Licence URI: https://www.os-templates.com/template-terms
 		</li>
         <li <%actkontakt%>><a href="#">Kontakt</a>
           <ul>
+		    <li><a href="/kontakt;okcontent	">***OK => Inhalte***</a></li>
             <li><a href="/kontakt;kontaktformular">Kontaktformular</a></li>
-			<li><a href="/kontakt;okcontent	">OK => Inhalte (temp.)</a></li>
             <li><a href="/kontakt;organisationskommite">Organisationskommite</a></li>
 			<li><a href="/kontakt;medienakkreditierung">Medienakkreditierung</a></li>
 			<li><a href="/kontakt;organigramm">Organigramm</a></li>
@@ -175,7 +175,7 @@ $(window).scroll(function() {
     </div>
     <div class="one_third">
 	    <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-facebook" href="https://www.facebook.com/isaf2020/"><i class="fa fa-facebook"></i></a></li>
       </ul>
     </div>
     <div class="one_third">
