@@ -80,7 +80,7 @@ Licence URI: https://www.os-templates.com/template-terms
 		</li>
         <li <%actkontakt%>><a href="#">Kontakt</a>
           <ul>
-		    <li><a href="/kontakt;okcontent	">***OK => Inhalte***</a></li>
+		    <li><a href="/infos_ok">***Infos OK***</a></li>
             <li><a href="/kontakt;kontaktformular">Kontaktformular</a></li>
             <li><a href="/kontakt;organisationskommite">Organisationskommite</a></li>
 			<li><a href="/kontakt;medienakkreditierung">Medienakkreditierung</a></li>
