@@ -9,7 +9,7 @@ get '/gallery' => sub {
 };
 
 get '/infos_ok' => sub {
-    template 'INFOS_OK' => { 'title' => 'ISAF2020 OK | Inhalte', 'actkontakt' => 'class="active"' };
+    template 'INFOS_OK' => { 'title' => 'Infos OK', 'actkontakt' => 'class="active"' };
 };
 
 get '/fullwidth' => sub {
