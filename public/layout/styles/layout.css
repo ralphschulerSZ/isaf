@@ -192,12 +192,12 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 }
 
 .nav-wrapper {
-    height: 57px;
+    height: 59px;
     background: #32353C;
 }
 
 .nav-wrapper .nav {
-    height: 57px;
+    height: 59px;
     background: #32353C;
     padding: 0 40px;
     line-height: 80px;
@@ -298,7 +298,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#CBCBCB; background-color:#4A4E57;margin: 0;padding: 0;}
-a{color:#E43F21;}
+a{color:#EF3340;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -306,7 +306,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(182,133,103,.55)/* #b68567 */;}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#E43F21; border-color:#E43F21;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#EF3340; border-color:#EF3340;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background:rgba(0,0,0,.55);}
@@ -333,13 +333,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 /* Content Area */
 .services li article{color:inherit; background-color:#F6F6F6;}
-.services li article i{color:#FFFFFF; background:#E43F21; border-color:#FFFFFF;}
-.services li article:hover i{color:#E43F21; background:#F6F6F6;}
+.services li article i{color:#FFFFFF; background:#EF3340; border-color:#FFFFFF;}
+.services li article:hover i{color:#EF3340; background:#F6F6F6;}
 
 
 /* Split Box */
 .split section, .split section::after{color:#FFFFFF; background-color:rgba(182,133,103,.55)/* #b68567 */;}
-.split section .fa-ul .fa-li{color:#E43F21;}
+.split section .fa-ul .fa-li{color:#EF3340;}
 
 
 /* Footer */
@@ -357,32 +357,32 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#32353C; background-color:#FFFFFF;}
-#footer input:focus{border-color:#E43F21;}
-#footer button{color:#FFFFFF; background-color:#E43F21;}
+#footer input:focus{border-color:#EF3340;}
+#footer button{color:#FFFFFF; background-color:#EF3340;}
 
 
 /* Navigation */
 #mainav li a{color:#FFFFFF;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#E43F21; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#EF3340; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(50,53,60,.90)/* #32353C */; border-color:rgba(50,53,60,.90)/* #32353C */;}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#E43F21;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#EF3340;}
 #mainav form select{color:#FFFFFF; background-color:#4A4E57; border-color:rgba(255,255,255,.2);/* #FFFFFF */}
 
 #breadcrumb ul{border-color:rgba(255,255,255,.1);}
 #breadcrumb a{color:rgba(255,255,255,.6); background-color:inherit;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#E43F21;}
+.container .sidebar nav a:hover{color:#EF3340;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#E43F21;}
+.pagination .current *{color:#FFFFFF; background-color:#EF3340;}
 
-#backtotop{color:#FFFFFF; background-color:#E43F21;}
+#backtotop{color:#FFFFFF; background-color:#EF3340;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#E43F21;}
+#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#EF3340;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
