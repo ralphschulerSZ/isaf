@@ -1,3 +1,8 @@
+#Hinweis:
+#Bilder immer max. 1250px
+#Thumbs immer max.  250px
+#IrfanView, File, Batch/Conversion Rename:
+
 use strict;
 use warnings;
 
