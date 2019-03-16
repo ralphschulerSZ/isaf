@@ -102,7 +102,14 @@
           <!--<figcaption>Gallery Description Goes Here</figcaption>-->
         </figure>
       </div>
-	  <script src="/dist/js/lightbox-plus-jquery.min.js"></script>	
+	  <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+      <script>
+		lightbox.option({
+		  'alwaysShowNavOnTouchDevices': true,
+          'resizeDuration': 200,
+          'wrapAround': true
+        })
+	  </script>	  
     </div>
     <!-- ################################################################################################ -->
   </div>
