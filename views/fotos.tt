@@ -57,16 +57,52 @@
     <!-- ################################################################################################ -->
     <div class="group latest">
 
-	  <section>
-
-    <h3>A Four Image Set</h3>
-    <div>
-      <a class="example-image-link imgover" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
-      <a class="example-image-link imgover" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
-      <a class="example-image-link imgover" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
-      <a class="example-image-link imgover" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
-    </div>
-  </section>
+      <div id="gallery">
+        <figure>
+          <header class="heading">ISAF Sponsoring Broschüre Fotos</header>
+          <ul class="nospace clear">
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/001.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/001.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/002.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/002.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/003.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/003.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/004.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/004.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/005.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/005.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/006.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/006.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/007.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/007.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/008.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/008.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/009.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/009.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/010.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/010.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/011.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/011.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/012.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/012.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/013.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/013.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/014.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/014.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/015.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/015.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/016.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/016.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/017.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/017.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/018.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/018.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/019.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/019.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/020.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/020.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/021.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/021.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/022.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/022.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/023.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/023.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/024.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/024.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/025.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/025.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/026.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/026.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/027.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/027.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/028.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/028.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/029.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/029.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/030.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/030.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/031.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/031.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/032.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/032.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/033.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/033.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/034.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/034.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/035.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/035.jpg" alt=""/></a></li>
+            <li class="one_quarter"><a class="example-image-link imgover" href="/images/gallery01/1250/036.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/036.jpg" alt=""/></a></li>
+            <li class="one_quarter first"><a class="example-image-link imgover" href="/images/gallery01/1250/037.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="/images/gallery01/250/037.jpg" alt=""/></a></li>
+          </ul>
+          <!--<figcaption>Gallery Description Goes Here</figcaption>-->
+        </figure>
+      </div>
+	  <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
   
   <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
 	
