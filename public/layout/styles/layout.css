@@ -269,6 +269,11 @@ td{border-width:0 1px;}
 #gallery figure figcaption{display:block; width:100%; clear:both;}
 #gallery li{margin-bottom:30px;}
 
+.isafgallery img {
+	padding:0px;
+	border:2px solid #32353C;
+}
+
 
 /* Font Awesome Social Icons
 --------------------------------------------------------------------------------------------------------------- */

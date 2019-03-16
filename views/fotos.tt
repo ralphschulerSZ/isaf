@@ -57,7 +57,7 @@
     <!-- ################################################################################################ -->
     <div class="group latest">
 
-      <div id="gallery">
+      <div id="gallery" class="isafgallery">
         <figure>
           <header class="heading">ISAF Sponsoring Broschüre Fotos</header>
           <ul class="nospace clear">
