@@ -1,0 +1,51 @@
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<div class="wrapper row3">
+	  <main class="hoc container clear"> 
+		<!-- main body -->
+		<!-- ################################################################################################ -->
+		<div class="group btmspace-50 demo">
+		    <ul class="nospace group services">
+		  	    <li class="one_quarter first">
+			  	     <footer><a class="btn" href="/">Home</a></footer>
+		  	    </li>
+		  	    <li class="one_quarter">
+			        <footer><a class="btn" href="/gallery">Gallery</a></footer>
+		        </li>
+		        <li class="one_quarter">
+			        <footer><a class="btn" href="/fullwidth">Full Width</a></footer>
+		        </li>
+		        <li class="one_quarter">
+			        <footer><a class="btn" href="/sidebarleft">Sidebar Left</a></footer>
+		        </li>
+		        <li class="one_quarter">
+			        <footer><a class="btn" href="/sidebarright">Sidebar Right</a></footer>
+		        </li>
+		        <li class="one_quarter">
+			        <footer><a class="btn" href="/basicgrid">Basic Grid</a></footer>
+		        </li>
+		        <li class="one_quarter">
+			        <footer><a class="btn" href="/fonticons">Font Icons</a></footer>
+		        </li>					
+		    </ul>
+		</div>
+		<!-- ################################################################################################ -->
+		<!-- / main body -->
+		<div class="clear"></div>
+	  </main>
+	</div>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>

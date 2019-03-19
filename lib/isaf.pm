@@ -72,5 +72,6 @@ get '/kontakt;organisationskommite' => sub {template 'kontakt.organisationskommi
 get '/kontakt;medienakkreditierung' => sub {template 'kontakt.medienakkreditierung' => { 'title' => 'Kontakt, Medienakkreditierung', 'actkontakt' => 'class="active"' };};
 get '/kontakt;organigramm' => sub {template 'kontakt.organigramm' => { 'title' => 'Kontakt, Organigramm', 'actkontakt' => 'class="active"' };};
 get '/kontakt;schwingklubmythen' => sub {template 'kontakt.schwingklubmythen' => { 'title' => 'Kontakt, Schwingklub Mythen', 'actkontakt' => 'class="active"' };};
+get '/adminralph' => sub {template 'ADMIN_RALPH' => { 'title' => 'Admin Ralph', 'actkontakt' => 'class="active"' };};
 
 true;

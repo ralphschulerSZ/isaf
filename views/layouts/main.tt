@@ -87,19 +87,10 @@ Licence URI: https://www.os-templates.com/template-terms
             <li><a href="/kontakt;organisationskommite">Organisationskommite</a></li>
 			<li><a href="/kontakt;medienakkreditierung">Medienakkreditierung</a></li>
 			<li><a href="/kontakt;organigramm">Organigramm</a></li>
-			<li><a href="http://www.mythenverband.ch/">Schwingerverband am Mythen</a></li>		
+			<li><a href="http://www.mythenverband.ch/">Schwingerverband am Mythen</a></li>
+			<li><a href="/adminralph">***Admin Ralph***</a></li>			
           </ul>		
 		</li>		
-	<li <%acttemplates%>><a href="#">Templates</a>
-          <ul>
-            <li><a href="/gallery">Gallery</a></li>
-            <li><a href="/fullwidth">Full Width</a></li>
-            <li><a href="/sidebarleft">Sidebar Left</a></li>
-            <li><a href="/sidebarright">Sidebar Right</a></li>
-            <li><a href="/basicgrid">Basic Grid</a></li>
-            <li><a href="/fonticons">Font Icons</a></li>
-          </ul>
-        </li>
       </ul>
     </nav>
 	</div>
