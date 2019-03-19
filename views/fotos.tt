@@ -106,7 +106,8 @@
       <script>
 		lightbox.option({
 		  'alwaysShowNavOnTouchDevices': true,
-          'resizeDuration': 200,
+          'resizeDuration': 1,
+		  'imageFadeDuration': 1,
           'wrapAround': true
         })
 	  </script>	  

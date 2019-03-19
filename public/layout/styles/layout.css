@@ -253,6 +253,12 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #backtotop.visible{visibility:visible; opacity:.5;}
 #backtotop:hover{opacity:1;}
 
+/* ISAF mini */
+#isafmini{z-index:99999; display:inline-block; position:fixed; visibility:hidden; top:0px; right:20px; width:150px; height:150px; line-height:36px; font-size:16px; text-align:center; opacity:.2;}
+#isafmini i{display:block; width:100%; height:100%; line-height:inherit;}
+#isafmini.visible{visibility:visible; opacity:1;}
+#isafmini:hover{opacity:1;}
+
 
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */
