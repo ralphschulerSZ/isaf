@@ -41,14 +41,13 @@ get '/fotos;gallerie2' => sub {
 };
 
 get '/' => sub {template 'home' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"' };};
-get '/fotos' => sub {template 'fotos' => { 'title' => 'Fotos', 'actfotos' => 'class="active"' };};
-get '/besucher_helfer' => sub {template 'besucher_helfer' => { 'title' => 'Besucher / Helfer', 'actbesucher_helfer' => 'class="active"' };};
-get '/besucher_helfer;festprogramm' => sub {template 'besucher_helfer.festprogramm' => { 'title' => 'Besucher / Helfer, Festprogramm', 'actbesucher_helfer' => 'class="active"' };};
-get '/besucher_helfer;tickets' => sub {template 'besucher_helfer.tickets' => { 'title' => 'Besucher / Helfer, Tickets', 'actbesucher_helfer' => 'class="active"' };};
-get '/besucher_helfer;helfer' => sub {template 'besucher_helfer.helfer' => { 'title' => 'Besucher / Helfer, Helfer', 'actbesucher_helfer' => 'class="active"' };};
-get '/besucher_helfer;besucher' => sub {template 'besucher_helfer.besucher' => { 'title' => 'Besucher / Helfer, Besucher', 'actbesucher_helfer' => 'class="active"' };};
-get '/besucher_helfer;festgelaende' => sub {template 'besucher_helfer.festgelaende' => { 'title' => 'Besucher / Helfer, Festgel&auml;nde', 'actbesucher_helfer' => 'class="active"' };};
-get '/gaben' => sub {template 'gaben' => { 'title' => 'Gaben', 'actgaben' => 'class="active"' };};
+get '/fotos' => sub {template 'fotos' => { 'title' => 'Fotos - ISAF2020', 'actfotos' => 'class="active"' };};
+get '/festprogramm' => sub {template 'festprogramm' => { 'title' => 'Festprogramm - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
+get '/tickets' => sub {template 'tickets' => { 'title' => 'Tickets - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
+get '/helfer' => sub {template 'helfer' => { 'title' => 'Helfer - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
+get '/besucher' => sub {template 'besucher' => { 'title' => 'Besucher - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
+get '/festgelaende' => sub {template 'festgelaende' => { 'title' => 'Festgel&auml;nde - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
+get '/gaben' => sub {template 'gaben' => { 'title' => 'Gaben - ISAF2020', 'actgaben' => 'class="active"' };};
 get '/gaben;gaben' => sub {template 'gaben.gaben' => { 'title' => 'Gaben, Gaben', 'actgaben' => 'class="active"' };};
 get '/gaben;lebendpreise' => sub {template 'gaben.lebendpreise' => { 'title' => 'Gaben, Lebendpreise', 'actgaben' => 'class="active"' };};
 get '/gaben;schwingerfreunde' => sub {template 'gaben.schwingerfreunde' => { 'title' => 'Gaben, Schwingerfreunde', 'actgaben' => 'class="active"' };};

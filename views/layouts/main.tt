@@ -44,13 +44,13 @@ Licence URI: https://www.os-templates.com/template-terms
       <ul class="clear">
         <li <%acthome%>><a href="/">Home</a></li>
 		<li <%actfotos%>><a href="/fotos">Fotos</a></li>
-        <li <%actbesucher_helfer%>><a href="#">Besucher / Helfer</a>
+        <li <%actbesucher_helfer%>><a href="/helfer">Besucher / Helfer</a>
           <ul>
-            <li><a href="/besucher_helfer;festprogramm">Festprogramm</a></li>
-            <li><a href="/besucher_helfer;tickets">Tickets</a></li>
-			<li><a href="/besucher_helfer;helfer">Helfer</a></li>
-			<li><a href="/besucher_helfer;besucher">Besucher</a></li>
-			<li><a href="/besucher_helfer;festgelaende">Festgel&auml;nde</a></li>
+            <li><a href="/festprogramm">Festprogramm</a></li>
+            <li><a href="/tickets">Tickets</a></li>
+			<li><a href="/helfer">Helfer</a></li>
+			<li><a href="/besucher">Besucher</a></li>
+			<li><a href="/festgelaende">Festgel&auml;nde</a></li>
           </ul>		
 		</li>		
         <li <%actgaben%>><a href="/gaben">Gaben</a>
