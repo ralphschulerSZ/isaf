@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<!--
-Template Name: Edgpress
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
--->
 <html lang="de">
 <head>
 	<title><% title %></title>
@@ -18,7 +11,7 @@ Licence URI: https://www.os-templates.com/template-terms
 
 </head>
 <body id="top">
-<a id="isafmini" href="/"><image src="/images/prototyp/logo_isaf_150.png"></a>
+<a id="isafmini" href="/"><img src="/images/logo_isaf_150.png"></a>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -28,7 +21,7 @@ Licence URI: https://www.os-templates.com/template-terms
     <!--<h1><a href="/">ISAF 2020</a></h1>-->
 	
 	
-	<p><a href="/"><img src="/images/prototyp/logo_isaf_400.png" alt=""></a></p>
+	<p><a href="/"><img src="/images/logo_isaf_400.png" alt=""></a></p>
     <!--<h1>114. Innerschweizer Schwing- & Älplerfest</h1>
 	<h1>05.07.2020 Ibach-Schwyz</h1>-->
     <!-- ################################################################################################ -->

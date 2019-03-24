@@ -325,12 +325,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 
 /* Rows */
-.row1{color:#929292; background-image:url("/images/prototyp/sagmehl.jpg")}
+.row1{color:#929292; background-image:url("/images/sagmehl.jpg")}
 .row2, .row2 a{}
 .row3{color:#32353C; background-color:#FFFFFF;}
 .row4{color:#CBCBCB; background-color:#32353C;}
 .row5, .row5 a{color:#CBCBCB; background-color:#4A4E57;}
-.row6{background-color:#ffffff; background-image:url("/images/prototyp/talkessel.jpg")}
+.row6{background-color:#ffffff; background-image:url("/images/talkessel.jpg")}
 .row7{background-color:#ffffff;)}
 
 
