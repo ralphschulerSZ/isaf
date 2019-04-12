@@ -327,7 +327,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 
 /* Rows */
-.row1{color:#929292; background-image:url("/images/sagmehl.jpg")}
+.row1{color:#929292; background-image:url("/images/logo_isaf_400.png"), url("/images/sagmehl.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center top, left top;}
 .row2, .row2 a{}
 .row3{color:#32353C; background-color:#FFFFFF;}
 .row4{color:#CBCBCB; background-color:#32353C;}
