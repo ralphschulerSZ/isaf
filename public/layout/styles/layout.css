@@ -278,7 +278,8 @@ td{border-width:0 1px;}
 
 .isafgallery img {
 	padding:0px;
-	border:2px solid #32353C;
+	/*border:2px solid #32353C;*/
+	box-shadow: 5px 7px 7px grey;
 }
 
 
