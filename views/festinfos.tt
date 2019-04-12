@@ -1,0 +1,46 @@
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h6 class="heading">Veranstalter</h6>
+      <p>Schwingerverband am Mythen<br><a href="http://www.mythenverband.ch/">Homepage</a></p>
+    </div>
+    <ul class="nospace group services">
+      <li class="one_quarter first">
+        <article><i class="fa fa-calendar"></i>
+          <h6 class="heading">Festdatum</h6>
+          <p><b>Sonntag, 5. Juli 2020</b></p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><i class="fa fa-flag"></i>
+          <h6 class="heading">Festareal</h6>
+          <p><b>Sportanlage Wintersried</b><br>Muotatstrasse 82<br>6438 Ibach</p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><i class="fa fa-ticket"></i>
+          <h6 class="heading">Arena</h6>
+          <p>Tribünen- und Rasensitzplätze für <b>ca. 12‘000 Zuschauer</b></p>
+        </article>
+      </li>
+      <li class="one_quarter">
+        <article><i class="fa fa-users"></i>
+          <h6 class="heading">Teilnehmer</h6>
+          <p><b>ca. 200 Schwinger und 50 Steinstösser</b> aus dem Innerschweiz und der übrigen Schweiz</p>
+          <footer><a class="btn" href="#">Teilnehmerliste</a></footer>
+        </article>
+      </li>	  
+    </ul>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>

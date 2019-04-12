@@ -4,6 +4,7 @@
 	<title><% title %></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="114. Innerschweizer Schwing- & Älplerfest - 5. Juli 2020 in Ibach-Schwyz" />
 	<link href="/layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 	<link rel="stylesheet" href="/dist/css/lightbox.min.css">
 	<script src="/layout/scripts/jquery.min.js"></script>
@@ -34,7 +35,8 @@
 		<li <%actfotos%>><a href="/fotos">Fotos</a></li>
         <li <%actbesucher_helfer%>><a href="/helfer">Besucher / Helfer</a>
           <ul>
-            <li><a href="/festprogramm">Festprogramm</a></li>
+            <li><a href="/festinfos">Festinfos</a></li>
+			<li><a href="/festprogramm">Festprogramm</a></li>
             <li><a href="/tickets">Tickets</a></li>
 			<li><a href="/helfer">Helfer</a></li>
 			<li><a href="/besucher">Besucher</a></li>

@@ -42,7 +42,9 @@ get '/fotos;gallerie2' => sub {
 };
 
 get '/' => sub {template 'home' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"' };};
+get '/homeorig' => sub {template 'homeorig' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"' };};
 get '/fotos' => sub {template 'fotos' => { 'title' => 'Fotos - ISAF2020', 'actfotos' => 'class="active"' };};
+get '/festinfos' => sub {template 'festinfos' => { 'title' => 'Festinfos - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
 get '/festprogramm' => sub {template 'festprogramm' => { 'title' => 'Festprogramm - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
 get '/tickets' => sub {template 'tickets' => { 'title' => 'Tickets - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
 get '/helfer' => sub {template 'helfer' => { 'title' => 'Helfer - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};

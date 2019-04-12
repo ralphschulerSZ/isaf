@@ -16,7 +16,7 @@
 		<div class="group btmspace-50 demo">
 		    <ul class="nospace group services">
 		  	    <li class="one_quarter first">
-			  	     <footer><a class="btn" href="/">Home</a></footer>
+			  	     <footer><a class="btn" href="/homeorig">Home</a></footer>
 		  	    </li>
 		  	    <li class="one_quarter">
 			        <footer><a class="btn" href="/gallery">Gallery</a></footer>
