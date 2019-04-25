@@ -35,7 +35,7 @@
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Veranstalter</h6>
+            <h6 class="heading"><font style="font-size:36px" color="#EF3340">&laquo;</font>Veranstalter<font style="font-size:36px" color="#EF3340">&raquo;</font></h6>
       <p>Schwingerverband am Mythen<br><a href="http://www.mythenverband.ch/">Homepage</a></p>
     </div>
     <ul class="nospace group services">
