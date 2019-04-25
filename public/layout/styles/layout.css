@@ -310,7 +310,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#CBCBCB; background-color:#4A4E57;margin: 0;padding: 0;}
+body{color:#FFFFFF; background-color:#4A4E57;margin: 0;padding: 0;}
 a{color:#EF3340;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -341,7 +341,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 
 /* Page Intro */
-#pageintro p:first-of-type{color:rgba(255,255,255,.5);}
+#pageintro p:first-of-type{color:rgba(255,255,255);}
 
 
 /* Content Area */
