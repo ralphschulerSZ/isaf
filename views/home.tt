@@ -29,6 +29,8 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
+  <div class="schwung_1" style="position:absolute;bottom:0px;right:0px"><img src="/images/schwung_1.png"></div>
+  <div class="schwung_1" style="position:absolute;top:0px;left:0px"><img src="/images/schwung_1.png"></div>
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
