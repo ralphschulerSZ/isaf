@@ -192,12 +192,12 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 }
 
 .nav-wrapper {
-    height: 59px;
+    height: 65px;
     background: #FFFFFF;
 }
 
 .nav-wrapper .nav {
-    height: 59px;
+    height: 65px;
     background: #FFFFFF		;
     padding: 0 40px;
     line-height: 80px;
