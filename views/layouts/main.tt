@@ -17,7 +17,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row1">
-<div class="logo_400" style="position:absolute;bottom:0px;right:0px"><img src="/images/logo_isaf_400.png"></div>
+<div class="logo_400" style="position:absolute;bottom:20px;right:40px"><img src="/images/logo_isaf_360.png"></div>
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
 	<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAQAAADFUcJQAAAAFElEQVR42mNkYGAcRaNoFI2ioYAAsLUBkdmEbfIAAAAASUVORK5CYII=" alt=""></p>
