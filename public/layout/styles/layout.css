@@ -165,7 +165,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
 #mainav{text-align:center;}
-#mainav ul{text-transform:uppercase;}
+/*#mainav ul{text-transform:uppercase;}*/
 #mainav ul ul{z-index:9999; position:absolute; width:200px; text-transform:none; text-align:left;}
 #mainav ul ul ul{left:180px; top:0;}
 #mainav li{display:inline-block; position:relative; margin:0 30px 0 0; padding:0;}
@@ -193,12 +193,12 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 .nav-wrapper {
     height: 59px;
-    background: #32353C;
+    background: #FFFFFF;
 }
 
 .nav-wrapper .nav {
     height: 59px;
-    background: #32353C;
+    background: #FFFFFF		;
     padding: 0 40px;
     line-height: 80px;
     color: #FFF;
@@ -327,7 +327,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 
 /* Rows */
-.row1{color:#929292; background-image:url("/images/logo_isaf_400.png"), url("/images/sagmehl.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center top, left top;}
+.row1{color:#929292; background-image:url("/images/sagmehl.jpg"); background-repeat: no-repeat; background-attachment: fixed; background-position: center top, left top;}
 .row2, .row2 a{}
 .row3{color:#32353C; background-color:#FFFFFF;}
 .row4{color:#CBCBCB; background-color:#32353C;}
@@ -375,8 +375,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 
 /* Navigation */
-#mainav li a{color:#FFFFFF;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#EF3340; background-color:inherit;}
+#mainav li a{color:#EF3340;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#000000; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(50,53,60,.90)/* #32353C */; border-color:rgba(50,53,60,.90)/* #32353C */;}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#EF3340;}
 #mainav form select{color:#FFFFFF; background-color:#4A4E57; border-color:rgba(255,255,255,.2);/* #FFFFFF */}

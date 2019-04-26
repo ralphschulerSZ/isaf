@@ -17,9 +17,12 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row1">
+<div class="logo_400" style="position:absolute;bottom:0px;right:0px"><img src="/images/logo_isaf_400.png"></div>
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
-	<p><a href="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAQAAADFUcJQAAAAFElEQVR42mNkYGAcRaNoFI2ioYAAsLUBkdmEbfIAAAAASUVORK5CYII=" alt=""></a></p>
+	<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAQAAADFUcJQAAAAFElEQVR42mNkYGAcRaNoFI2ioYAAsLUBkdmEbfIAAAAASUVORK5CYII=" alt=""></p>
+	
+	
     <!-- ################################################################################################ -->
   </header>
 </div>
@@ -31,9 +34,9 @@
 	<div class="nav">
     <nav id="mainav">
       <ul class="clear">
-        <li <%acthome%>><a href="/">Home</a></li>
-		<li <%actfotos%>><a href="/fotos">Fotos</a></li>
-        <li <%actbesucher_helfer%>><a href="/helfer">Besucher / Helfer</a>
+        <li <%acthome%>><a class="menurw" href="/">Home</a></li>
+		<li <%actfotos%>><a class="menurw" href="/fotos">Fotos</a></li>
+        <li <%actbesucher_helfer%>><a class="menurw" href="/helfer">Besucher / Helfer</a>
           <ul>
             <li><a href="/festinfos">Festinfos</a></li>
 			<li><a href="/festprogramm">Festprogramm</a></li>
@@ -43,7 +46,7 @@
 			<li><a href="/festgelaende">Festgel&auml;nde</a></li>
           </ul>		
 		</li>		
-        <li <%actgaben%>><a href="/gaben">Gaben</a>
+        <li <%actgaben%>><a class="menurw" href="/gaben">Gaben</a>
           <ul>
             <li><a href="/gaben;gaben">Gaben</a></li>
             <li><a href="/gaben;lebendpreise">Lebendpreise</a></li>
@@ -51,7 +54,7 @@
 			<li><a href="/gaben;festfuehrer">Festf&uuml;hrer</a></li>
           </ul>		
 		</li>		
-        <li <%actschwingen%>><a href="#">Schwingen</a>
+        <li <%actschwingen%>><a class="menurw" href="#">Schwingen</a>
           <ul>
             <li><a href="/schwingen;schwingerliste">Schwingerliste</a></li>
             <li><a href="/schwingen;programmschwingfest">Programm Schwingfest</a></li>
@@ -59,7 +62,7 @@
 			<li><a href="/schwingen;steinstossen">Steinstossen</a></li>
           </ul>		
 		</li>
-        <li <%actsponsoren%>><a href="#">Sponsoren</a>
+        <li <%actsponsoren%>><a class="menurw" href="#">Sponsoren</a>
           <ul>
             <li><a href="/sponsoren;fest-partner">Fest-Partner</a></li>
             <li><a href="/sponsoren;schwing-partner">Schwing-Partner</a></li>
@@ -70,7 +73,7 @@
 			<li><a href="/sponsoren;medien-partner">Medien-Partner</a></li>			
           </ul>		
 		</li>
-        <li <%actkontakt%>><a href="#">Kontakt</a>
+        <li <%actkontakt%>><a class="menurw" href="#">Kontakt</a>
           <ul>
 		    <li><a href="/infos_ok">***Infos OK***</a></li>
             <li><a href="/kontakt;kontaktformular">Kontaktformular</a></li>
