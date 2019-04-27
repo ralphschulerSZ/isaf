@@ -119,7 +119,7 @@ $(window).scroll(function() {
 
 <div class="wrapper row6">
   <footer id="footer1" class="hoc clear"> 
-    <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAEECAQAAABDppYFAAAAE0lEQVR42mNkYGAcRaNoFDEwAACQuQEF8qD99AAAAABJRU5ErkJggg==" alt="ph"></div>
+    <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAQAAADFUcJQAAAAFElEQVR42mNkYGAcRaNoFI2ioYAAsLUBkdmEbfIAAAAASUVORK5CYII=" alt=""></div>
   </footer>
 </div>
 <!-- ################################################################################################ -->
