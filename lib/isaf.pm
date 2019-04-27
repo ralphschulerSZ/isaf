@@ -189,7 +189,7 @@ get '/sponsoren' => sub {
 	my $pic = genrandompic();
 	my $sol = genrandschwungol();
 	my $sur = genrandschwungur();
-	template 'sponsoren' => { 'title' => 'Sponsoren', 'actsponsoren' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
+	template 'sponsoren' => { 'title' => 'Sponsoren - ISAF2020', 'actsponsoren' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
 };
 get '/fest-partner' => sub {
 	my $pic = genrandompic();

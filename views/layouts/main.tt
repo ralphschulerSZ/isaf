@@ -69,7 +69,7 @@ function schwungVisible() {
 			<li><a href="/steinstossen">Steinstossen</a></li>
           </ul>		
 		</li>
-        <li <%actsponsoren%>><a class="menurw" href="#">Sponsoren</a>
+        <li <%actsponsoren%>><a class="menurw" href="/sponsoren">Sponsoren</a>
           <ul>
             <li><a href="/fest-partner">Fest-Partner</a></li>
             <li><a href="/schwing-partner">Schwing-Partner</a></li>
