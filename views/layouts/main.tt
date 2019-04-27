@@ -11,7 +11,16 @@
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
-<body id="top">
+<body id="top" onload="schwungVisible()">
+
+<script>
+function schwungVisible() {
+    if (jQuery(window).width() > 1200) {
+		jQuery("#schwung_ol").addClass("visible");
+		jQuery("#schwung_ur").addClass("visible");
+	}
+}
+</script>
 <a id="isafmini" href="/"><img src="/images/logo_isaf_150.png"></a>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
