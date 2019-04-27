@@ -16,13 +16,11 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row1">
+<div class="wrapper row1" style="background-image:url('/images/Titelbild_03.jpg');">
 <div class="logo_400" style="position:fixed;top:20px;right:40px"><img src="/images/logo_isaf_360.png"></div>
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
 	<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAQAAADFUcJQAAAAFElEQVR42mNkYGAcRaNoFI2ioYAAsLUBkdmEbfIAAAAASUVORK5CYII=" alt=""></p>
-	
-	
     <!-- ################################################################################################ -->
   </header>
 </div>
@@ -48,38 +46,38 @@
 		</li>		
         <li <%actgaben%>><a class="menurw" href="/gaben">Gaben</a>
           <ul>
-            <li><a href="/gaben;gaben">Gaben</a></li>
-            <li><a href="/gaben;lebendpreise">Lebendpreise</a></li>
-			<li><a href="/gaben;schwingerfreunde">Schwingerfreunde</a></li>
-			<li><a href="/gaben;festfuehrer">Festf&uuml;hrer</a></li>
+            <li><a href="/gaben">Gaben</a></li>
+            <li><a href="/lebendpreise">Lebendpreise</a></li>
+			<li><a href="/schwingerfreunde">Schwingerfreunde</a></li>
+			<li><a href="/festfuehrer">Festf&uuml;hrer</a></li>
           </ul>		
 		</li>		
         <li <%actschwingen%>><a class="menurw" href="#">Schwingen</a>
           <ul>
-            <li><a href="/schwingen;schwingerliste">Schwingerliste</a></li>
-            <li><a href="/schwingen;programmschwingfest">Programm Schwingfest</a></li>
-			<li><a href="/schwingen;ehrendamen">Ehrendamen</a></li>
-			<li><a href="/schwingen;steinstossen">Steinstossen</a></li>
+            <li><a href="/schwingerliste">Schwingerliste</a></li>
+            <li><a href="/programmschwingfest">Programm Schwingfest</a></li>
+			<li><a href="/ehrendamen">Ehrendamen</a></li>
+			<li><a href="/steinstossen">Steinstossen</a></li>
           </ul>		
 		</li>
         <li <%actsponsoren%>><a class="menurw" href="#">Sponsoren</a>
           <ul>
-            <li><a href="/sponsoren;fest-partner">Fest-Partner</a></li>
-            <li><a href="/sponsoren;schwing-partner">Schwing-Partner</a></li>
-			<li><a href="/sponsoren;kranz-partner">Kranz-Partner</a></li>
-			<li><a href="/sponsoren;personal-partner">Personal-Partner</a></li>
-			<li><a href="/sponsoren;arena-partner">Arena-Partner</a></li>
-			<li><a href="/sponsoren;ring-partner">Ring-Partner</a></li>
-			<li><a href="/sponsoren;medien-partner">Medien-Partner</a></li>			
+            <li><a href="/fest-partner">Fest-Partner</a></li>
+            <li><a href="/schwing-partner">Schwing-Partner</a></li>
+			<li><a href="/kranz-partner">Kranz-Partner</a></li>
+			<li><a href="/personal-partner">Personal-Partner</a></li>
+			<li><a href="/arena-partner">Arena-Partner</a></li>
+			<li><a href="/ring-partner">Ring-Partner</a></li>
+			<li><a href="/medien-partner">Medien-Partner</a></li>			
           </ul>		
 		</li>
         <li <%actkontakt%>><a class="menurw" href="#">Kontakt</a>
           <ul>
 		    <li><a href="/infos_ok">***Infos OK***</a></li>
-            <li><a href="/kontakt;kontaktformular">Kontaktformular</a></li>
-            <li><a href="/kontakt;organisationskommite">Organisationskommite</a></li>
-			<li><a href="/kontakt;medienakkreditierung">Medienakkreditierung</a></li>
-			<li><a href="/kontakt;organigramm">Organigramm</a></li>
+            <li><a href="/kontaktformular">Kontaktformular</a></li>
+            <li><a href="/organisationskommite">Organisationskommite</a></li>
+			<li><a href="/medienakkreditierung">Medienakkreditierung</a></li>
+			<li><a href="/organigramm">Organigramm</a></li>
 			<li><a href="http://www.mythenverband.ch/">Schwingerverband am Mythen</a></li>
 			<li><a href="/admin">***Admin***</a></li>			
           </ul>		
