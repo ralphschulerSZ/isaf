@@ -389,6 +389,17 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 /* Navigation */
 #mainav li a{color:#EF3340;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#000000; background-color:inherit;}
+
+#mainav .active a::before{
+    color:#EF3340;
+    content:"«";
+}
+
+#mainav .active a::after{
+    color:#EF3340;
+    content:"»";
+}
+
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(50,53,60,.90)/* #32353C */; border-color:rgba(50,53,60,.90)/* #32353C */;}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#EF3340;}
 #mainav form select{color:#FFFFFF; background-color:#4A4E57; border-color:rgba(255,255,255,.2);/* #FFFFFF */}
