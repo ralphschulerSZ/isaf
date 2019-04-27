@@ -5,80 +5,182 @@ use Dancer::Plugin::Auth::Basic;
 
 our $VERSION = '0.1';
 
+sub genrandompic {
+	my $randid =         int(rand(6)) + 1;
+	my $pic    = "/images/Titelbild_0$randid.jpg";
+	return $pic;
+}
+
 get '/gallery' => sub {
-    template 'gallery' => { 'title' => 'ISAF2020 Gallery', 'activetemplates' => 'class="active"' };
+	my $pic = genrandompic();
+    template 'gallery' => { 'title' => 'ISAF2020 Gallery', 'activetemplates' => 'class="active"', 'titelbild' => $pic, 'titelbild' => $pic };
 };
-
 get '/infos_ok' => sub {
-    template 'INFOS_OK' => { 'title' => 'Infos OK', 'actkontakt' => 'class="active"' };
+	my $pic = genrandompic();
+    template 'INFOS_OK' => { 'title' => 'Infos OK', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
 };
-
 get '/fullwidth' => sub {
-    template 'fullwidth' => { 'title' => 'ISAF2020 fullwidth', 'activetemplates' => 'class="active"' };
+	my $pic = genrandompic();
+    template 'fullwidth' => { 'title' => 'ISAF2020 fullwidth', 'activetemplates' => 'class="active"', 'titelbild' => $pic };
 };
-
 get '/sidebarleft' => sub {
-    template 'sidebarleft' => { 'title' => 'ISAF2020 sidebarleft', 'activetemplates' => 'class="active"' };
+	my $pic = genrandompic();
+    template 'sidebarleft' => { 'title' => 'ISAF2020 sidebarleft', 'activetemplates' => 'class="active"', 'titelbild' => $pic };
 };
-
 get '/sidebarright' => sub {
-    template 'sidebarright' => { 'title' => 'ISAF2020 sidebarright', 'activetemplates' => 'class="active"' };
+	my $pic = genrandompic();
+    template 'sidebarright' => { 'title' => 'ISAF2020 sidebarright', 'activetemplates' => 'class="active"', 'titelbild' => $pic };
 };
-
 get '/basicgrid' => sub {
-    template 'basicgrid' => { 'title' => 'ISAF2020 basicgrid', 'activetemplates' => 'class="active"' };
+	my $pic = genrandompic();
+    template 'basicgrid' => { 'title' => 'ISAF2020 basicgrid', 'activetemplates' => 'class="active"', 'titelbild' => $pic };
 };
-
 get '/fonticons' => sub {
-    template 'fonticons' => { 'title' => 'ISAF2020 fonticons', 'activetemplates' => 'class="active"' };
+	my $pic = genrandompic();
+    template 'fonticons' => { 'title' => 'ISAF2020 fonticons', 'activetemplates' => 'class="active"', 'titelbild' => $pic };
 };
-
 get '/fotos;gallerie1' => sub {
-    template 'fotos.gallerie1' => { 'title' => 'Fotos, Gallerie 1', 'activefotos' => 'class="active"' } , { layout => 'gallerie_main' };
+	my $pic = genrandompic();
+    template 'fotos.gallerie1' => { 'title' => 'Fotos, Gallerie 1', 'activefotos' => 'class="active"', 'titelbild' => $pic } , { layout => 'gallerie_main' };
 };
-
 get '/fotos;gallerie2' => sub {
-    template 'fotos.gallerie2' => { 'title' => 'Fotos, Gallerie 2', 'activefotos' => 'class="active"' };
+	my $pic = genrandompic();;
+    template 'fotos.gallerie2' => { 'title' => 'Fotos, Gallerie 2', 'activefotos' => 'class="active"', 'titelbild' => $pic };
 };
-
-get '/' => sub {template 'home' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"' };};
-get '/homeorig' => sub {template 'homeorig' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"' };};
-get '/fotos' => sub {template 'fotos' => { 'title' => 'Fotos - ISAF2020', 'actfotos' => 'class="active"' };};
-get '/festinfos' => sub {template 'festinfos' => { 'title' => 'Festinfos - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
-get '/festprogramm' => sub {template 'festprogramm' => { 'title' => 'Festprogramm - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
-get '/tickets' => sub {template 'tickets' => { 'title' => 'Tickets - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
-get '/helfer' => sub {template 'helfer' => { 'title' => 'Helfer - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
-get '/besucher' => sub {template 'besucher' => { 'title' => 'Besucher - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
-get '/festgelaende' => sub {template 'festgelaende' => { 'title' => 'Festgel&auml;nde - ISAF2020', 'actbesucher_helfer' => 'class="active"' };};
-get '/gaben' => sub {template 'gaben' => { 'title' => 'Gaben - ISAF2020', 'actgaben' => 'class="active"' };};
-get '/gaben' => sub {template 'gaben.gaben' => { 'title' => 'Gaben, Gaben', 'actgaben' => 'class="active"' };};
-get '/lebendpreise' => sub {template 'gaben.lebendpreise' => { 'title' => 'Gaben, Lebendpreise', 'actgaben' => 'class="active"' };};
-get '/schwingerfreunde' => sub {template 'gaben.schwingerfreunde' => { 'title' => 'Gaben, Schwingerfreunde', 'actgaben' => 'class="active"' };};
-get '/festfuehrer' => sub {template 'gaben.festfuehrer' => { 'title' => 'Gaben, Festf&uuml;hrer', 'actgaben' => 'class="active"' };};
-get '/schwingen' => sub {template 'schwingen' => { 'title' => 'Schwingen', 'actschwingen' => 'class="active"' };};
-get '/schwingerliste' => sub {template 'schwingen.schwingerliste' => { 'title' => 'Schwingen, Schwingerliste', 'actschwingen' => 'class="active"' };};
-get '/programmschwingfest' => sub {template 'schwingen.programmschwingfest' => { 'title' => 'Schwingen, Programm Schwingfest', 'actschwingen' => 'class="active"' };};
-get '/ehrendamen' => sub {template 'schwingen.ehrendamen' => { 'title' => 'Schwingen, Ehrendamen', 'actschwingen' => 'class="active"' };};
-get '/steinstossen' => sub {template 'schwingen.steinstossen' => { 'title' => 'Schwingen, Steinstossen', 'actschwingen' => 'class="active"' };};
-get '/sponsoren' => sub {template 'sponsoren' => { 'title' => 'Sponsoren', 'actsponsoren' => 'class="active"' };};
-get '/fest-partner' => sub {template 'sponsoren.fest-partner' => { 'title' => 'Sponsoren, Fest-Partner', 'actsponsoren' => 'class="active"' };};
-get '/schwing-partner' => sub {template 'sponsoren.schwing-partner' => { 'title' => 'Sponsoren, Schwing-Partner', 'actsponsoren' => 'class="active"' };};
-get '/kranz-partner' => sub {template 'sponsoren.kranz-partner' => { 'title' => 'Sponsoren, Kranz-Partner', 'actsponsoren' => 'class="active"' };};
-get '/personal-partner' => sub {template 'sponsoren.personal-partner' => { 'title' => 'Sponsoren, Personal-Partner', 'actsponsoren' => 'class="active"' };};
-get '/arena-partner' => sub {template 'sponsoren.arena-partner' => { 'title' => 'Sponsoren, Arena-Partner', 'actsponsoren' => 'class="active"' };};
-get '/ring-partner' => sub {template 'sponsoren.ring-partner' => { 'title' => 'Sponsoren, Ring-Partner', 'actsponsoren' => 'class="active"' };};
-get '/medien-partner' => sub {template 'sponsoren.medien-partner' => { 'title' => 'Sponsoren, Medien-Partner', 'actsponsoren' => 'class="active"' };};
-get '/kontakt' => sub {template 'kontakt' => { 'title' => 'Kontakt', 'actkontakt' => 'class="active"' };};
-get '/kontaktformular' => sub {template 'kontakt.kontaktformular' => { 'title' => 'Kontakt, Kontaktformular', 'actkontakt' => 'class="active"' };};
-get '/organisationskommite' => sub {template 'kontakt.organisationskommite' => { 'title' => 'Kontakt, Organisationskommite', 'actkontakt' => 'class="active"' };};
-get '/medienakkreditierung' => sub {template 'kontakt.medienakkreditierung' => { 'title' => 'Kontakt, Medienakkreditierung', 'actkontakt' => 'class="active"' };};
-get '/organigramm' => sub {template 'kontakt.organigramm' => { 'title' => 'Kontakt, Organigramm', 'actkontakt' => 'class="active"' };};
-get '/schwingklubmythen' => sub {template 'kontakt.schwingklubmythen' => { 'title' => 'Kontakt, Schwingklub Mythen', 'actkontakt' => 'class="active"' };};
+get '/' => sub {
+	my $pic = "/images/Titelbild_01.jpg";
+	template 'home' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"', 'titelbild' => $pic };
+};
+get '/homeorig' => sub {
+	my $pic = genrandompic();
+	template 'homeorig' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"', 'titelbild' => $pic };
+};
+get '/fotos' => sub {
+	my $pic = genrandompic();
+	template 'fotos' => { 'title' => 'Fotos - ISAF2020', 'actfotos' => 'class="active"', 'titelbild' => $pic };
+};
+get '/festinfos' => sub {
+	my $pic = genrandompic();
+	template 'festinfos' => { 'title' => 'Festinfos - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic };
+};
+get '/festprogramm' => sub {
+	my $pic = genrandompic();
+	template 'festprogramm' => { 'title' => 'Festprogramm - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic };
+};
+get '/tickets' => sub {
+	my $pic = genrandompic();
+	template 'tickets' => { 'title' => 'Tickets - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic };
+};
+get '/helfer' => sub {
+	my $pic = genrandompic();
+	template 'helfer' => { 'title' => 'Helfer - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic };
+};
+get '/besucher' => sub {
+	my $pic = genrandompic();
+	template 'besucher' => { 'title' => 'Besucher - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic };
+};
+get '/festgelaende' => sub {
+	my $pic = genrandompic();
+	template 'festgelaende' => { 'title' => 'Festgel&auml;nde - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic };
+};
+get '/gaben' => sub {
+	my $pic = genrandompic();
+	template 'gaben' => { 'title' => 'Gaben - ISAF2020', 'actgaben' => 'class="active"', 'titelbild' => $pic };
+};
+get '/lebendpreise' => sub {
+	my $pic = genrandompic();
+	template 'gaben.lebendpreise' => { 'title' => 'Gaben, Lebendpreise', 'actgaben' => 'class="active"', 'titelbild' => $pic };
+};
+get '/schwingerfreunde' => sub {
+	my $pic = genrandompic();
+	template 'gaben.schwingerfreunde' => { 'title' => 'Gaben, Schwingerfreunde', 'actgaben' => 'class="active"', 'titelbild' => $pic };
+};
+get '/festfuehrer' => sub {
+	my $pic = genrandompic();
+	template 'gaben.festfuehrer' => { 'title' => 'Gaben, Festf&uuml;hrer', 'actgaben' => 'class="active"', 'titelbild' => $pic };
+};
+get '/schwingen' => sub {
+	my $pic = genrandompic();
+	template 'schwingen' => { 'title' => 'Schwingen', 'actschwingen' => 'class="active"', 'titelbild' => $pic };
+};
+get '/schwingerliste' => sub {
+	my $pic = genrandompic();
+	template 'schwingen.schwingerliste' => { 'title' => 'Schwingen, Schwingerliste', 'actschwingen' => 'class="active"', 'titelbild' => $pic };
+};
+get '/programmschwingfest' => sub {
+	my $pic = genrandompic();
+	template 'schwingen.programmschwingfest' => { 'title' => 'Schwingen, Programm Schwingfest', 'actschwingen' => 'class="active"', 'titelbild' => $pic };
+};
+get '/ehrendamen' => sub {
+	my $pic = genrandompic();
+	template 'schwingen.ehrendamen' => { 'title' => 'Schwingen, Ehrendamen', 'actschwingen' => 'class="active"', 'titelbild' => $pic };
+};
+get '/steinstossen' => sub {
+	my $pic = genrandompic();
+	template 'schwingen.steinstossen' => { 'title' => 'Schwingen, Steinstossen', 'actschwingen' => 'class="active"', 'titelbild' => $pic };
+};
+get '/sponsoren' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren' => { 'title' => 'Sponsoren', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/fest-partner' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren.fest-partner' => { 'title' => 'Sponsoren, Fest-Partner', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/schwing-partner' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren.schwing-partner' => { 'title' => 'Sponsoren, Schwing-Partner', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/kranz-partner' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren.kranz-partner' => { 'title' => 'Sponsoren, Kranz-Partner', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/personal-partner' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren.personal-partner' => { 'title' => 'Sponsoren, Personal-Partner', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/arena-partner' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren.arena-partner' => { 'title' => 'Sponsoren, Arena-Partner', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/ring-partner' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren.ring-partner' => { 'title' => 'Sponsoren, Ring-Partner', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/medien-partner' => sub {
+	my $pic = genrandompic();
+	template 'sponsoren.medien-partner' => { 'title' => 'Sponsoren, Medien-Partner', 'actsponsoren' => 'class="active"', 'titelbild' => $pic };
+};
+get '/kontakt' => sub {
+	my $pic = genrandompic();
+	template 'kontakt' => { 'title' => 'Kontakt', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
+};
+get '/kontaktformular' => sub {
+	my $pic = genrandompic();
+	template 'kontakt.kontaktformular' => { 'title' => 'Kontakt, Kontaktformular', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
+};
+get '/organisationskommite' => sub {
+	my $pic = genrandompic();
+	template 'kontakt.organisationskommite' => { 'title' => 'Kontakt, Organisationskommite', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
+};
+get '/medienakkreditierung' => sub {
+	my $pic = genrandompic();
+	template 'kontakt.medienakkreditierung' => { 'title' => 'Kontakt, Medienakkreditierung', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
+};
+get '/organigramm' => sub {
+	my $pic = genrandompic();
+	template 'kontakt.organigramm' => { 'title' => 'Kontakt, Organigramm', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
+};
+get '/schwingklubmythen' => sub {
+	my $pic = genrandompic();
+	template 'kontakt.schwingklubmythen' => { 'title' => 'Kontakt, Schwingklub Mythen', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
+};
 get '/admin' => sub {
+	my $pic = genrandompic();
 	my $pwdisaf  = $ENV{'PWDISAF'}; 
 	auth_basic realm => 'Authorized personnel only',
     users => { 'ralph' => $pwdisaf};
-	template 'ADMIN' => { 'title' => 'Admin', 'actkontakt' => 'class="active"' };
+	template 'ADMIN' => { 'title' => 'Admin', 'actkontakt' => 'class="active"', 'titelbild' => $pic };
 };
 
 true;
