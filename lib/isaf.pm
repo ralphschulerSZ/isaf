@@ -186,7 +186,7 @@ get '/steinstossen' => sub {
 	template 'schwingen.steinstossen' => { 'title' => 'Schwingen, Steinstossen', 'actschwingen' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
 };
 get '/sponsoren' => sub {
-	my $pic = genrandompic();
+	my $pic = "/images/Titelbild_01.jpg";
 	my $sol = genrandschwungol();
 	my $sur = genrandschwungur();
 	template 'sponsoren' => { 'title' => 'Sponsoren - ISAF2020', 'actsponsoren' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
