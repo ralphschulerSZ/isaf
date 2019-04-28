@@ -6,7 +6,7 @@ use Dancer::Plugin::Auth::Basic;
 our $VERSION = '0.1';
 
 sub genrandompic {
-	my $randid = int(rand(6)) + 1;
+	my $randid = int(rand(5)) + 2;
 	my $pic    = "/images/Titelbild_0$randid.jpg";
 	return $pic;
 }
