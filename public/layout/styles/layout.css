@@ -403,7 +403,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(50,53,60,.90)/* #32353C */; border-color:rgba(50,53,60,.90)/* #32353C */;}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#EF3340;}
-#mainav form select{color:#FFFFFF; background-color:#FFFFFF; border-color:rgba(255,255,255,.2);/* #FFFFFF */}
+#mainav form select{color:#FFFFFF; background-color:#4A4E57; border-color:rgba(255,255,255,.2);/* #FFFFFF */}
 
 #breadcrumb ul{border-color:rgba(255,255,255,.1);}
 #breadcrumb a{color:rgba(255,255,255,.6); background-color:inherit;}
