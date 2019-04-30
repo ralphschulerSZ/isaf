@@ -345,7 +345,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 .row3{color:#32353C; background-color:#FFFFFF;}
 .row4{color:#CBCBCB; background-color:#32353C;}
 .row5, .row5 a{color:#CBCBCB; background-color:#FFFFFF;}
-.row6{background-color:#ffffff; background-image:url("/images/Fusszeile_01.jpg"); background-repeat: no-repeat; background-attachment: fixed;}
+.row6{background-color:#ffffff; background-image:url("/images/Fusszeile_01.jpg"); background-repeat: no-repeat;}
 .row7{background-color:#ffffff;)}
 
 
