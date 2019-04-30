@@ -10,7 +10,7 @@ File: Framework CSS
 
 html{overflow-y:scroll; overflow-x:hidden;}
 html, body{margin:0; padding:0; font-size:16px; line-height:1.6em;}
-a.menurw{font-size:20px;font-weight:bold}
+a.menurw{font-size:1.4rem;font-weight:bold}
 
 *, *::before, *::after{box-sizing:border-box;}
 
@@ -32,7 +32,8 @@ a.menurw{font-size:20px;font-weight:bold}
 .bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
 .circle{border-radius:50%; background-clip:padding-box;}
 
-.btn{display:inline-block; padding:8px 18px 10px; text-transform:uppercase; border:1px solid;}
+/*.btn{display:inline-block; padding:8px 18px 10px; text-transform:uppercase; border:1px solid;}*/
+.btn{display:inline-block; padding:8px 18px 10px; border:1px solid;}
 
 .clear, .group{display:block;}
 .clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
@@ -70,7 +71,8 @@ label{margin-bottom:5px;}
 
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:capitalize; font-variant:small-caps;}
+/*h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:capitalize; font-variant:small-caps;}*/
+h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal;}
 .heading.nospace{margin-bottom:0;}
 
 address{font-style:normal; font-weight:normal;}

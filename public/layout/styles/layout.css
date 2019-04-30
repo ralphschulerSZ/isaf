@@ -37,7 +37,8 @@ File: Layout CSS
 #pageintro article{display:block; max-width:65%; overflow:hidden;}
 #pageintro article *{word-wrap:break-word;}
 #pageintro .heading{margin-bottom:20px; font-size:6rem;}
-#pageintro p{margin:0; text-transform:uppercase; font-weight:700; font-size:1.4rem;}
+/*#pageintro p{margin:0; text-transform:uppercase; font-weight:700; font-size:1.4rem;}*/
+#pageintro p{margin:0;font-weight:bold; font-size:1.4rem;}
 #pageintro footer{margin-top:80px;}
 
 
