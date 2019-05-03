@@ -239,6 +239,12 @@ get '/kontakt' => sub {
 	my $sur = genrandschwungur();
 	template 'kontakt' => { 'title' => 'Kontakt', 'actkontakt' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
 };
+get '/impressum' => sub {
+	my $pic = genrandompic();
+	my $sol = genrandschwungol();
+	my $sur = genrandschwungur();
+	template 'impressum' => { 'title' => 'ISAF2020 - Impressum', 'actkontakt' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
+};
 get '/kontaktformular' => sub {
 	my $pic = genrandompic();
 	my $sol = genrandschwungol();

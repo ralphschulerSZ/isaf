@@ -163,7 +163,7 @@ $(window).scroll(function() {
     <div class="one_third first">
       
       
-	  <!--<a href="#">Impressum</a><br><a href="#">Datenschutzerkl&auml;rung</a><br>--><a href="/kontakt;kontaktformular">Kontakt</a>
+	  <a href="/impressum">Impressum</a><br><a href="/kontaktformular">Kontakt</a>
   
     </div>
     <div class="one_third">
