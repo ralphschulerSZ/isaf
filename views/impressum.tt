@@ -50,7 +50,7 @@ document.write("<a href='mailto:"+link+"'>E-Mail</a>")
 </script><noscript>Sorry, you need Javascript on to email me.</noscript></strong></p>
 		
 		</div>
-        <div class="one_half"><img src="/images/Othmar-Reichmuth.jpg" alt"Othmar Reichmuth"></div>
+        <!--<div class="one_half"><img src="/images/Othmar-Reichmuth.jpg" alt"Othmar Reichmuth"></div>-->
       </div>
 	  
 <h2><strong>Umsetzung</strong></h2>
