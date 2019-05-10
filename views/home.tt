@@ -57,7 +57,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!--<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/mythen.jpg');">-->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/mythen.jpg');">
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/mythen.jpg'); background-attachment: fixed;">
   <div id="pageintro" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <article>
