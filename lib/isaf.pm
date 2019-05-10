@@ -12,13 +12,15 @@ sub genrandompic {
 }
 
 sub genrandschwungol {
-	my $randid = int(rand(3));
+	#my $randid = int(rand(3)); wenn leeres Bild auch zufällig generiert werden soll
+	my $randid = int(rand(2) + 1);
 	my $pic    = "/images/schwung_ol$randid.jpg";
 	return $pic;
 }
 
 sub genrandschwungur {
-	my $randid = int(rand(5));
+	#my $randid = int(rand(5)); ; wenn leeres Bild auch zufällig generiert werden soll
+	my $randid = int(rand(4) + 1);
 	my $pic    = "/images/schwung_ur$randid.jpg";
 	return $pic;
 }

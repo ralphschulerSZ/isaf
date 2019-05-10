@@ -12,7 +12,9 @@
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
       <h6 class="heading">Veranstalter</h6>
-      <p>Schwingerverband am Mythen<br><strong><a href="http://www.mythenverband.ch/">Homepage</a></strong></p>
+      <p>Schwingerverband am Mythen<br>
+	  <a href="http://www.mythenverband.ch/"><img src="/images/svam.gif" alt=""></a><br>
+	  <a href="http://www.mythenverband.ch/">Homepage</a></p>
     </div>
     <ul class="nospace group services">
       <li class="one_quarter first">
@@ -37,7 +39,7 @@
         <article><i class="fa fa-users"></i>
           <h6 class="heading">Teilnehmer</h6>
           <p><b>ca. 200 Schwinger und 50 Steinstösser</b> aus der Innerschweiz und der übrigen Schweiz</p>
-          <footer><a class="btn" href="#">Teilnehmerliste</a></footer>
+          <!--<footer><a class="btn" href="#">Teilnehmerliste</a></footer>-->
         </article>
       </li>	  
     </ul>

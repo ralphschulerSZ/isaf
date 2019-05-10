@@ -1,37 +1,17 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<!--<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/mythen.jpg');">-->
-<div class="wrapper bgded" style="background-image:url('images/demo/backgrounds/mythen.jpg');">
-  <div id="pageintro" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <article>
-      <h3 class="heading"><font style="font-size:10rem" color="#EF3340">&laquo;</font>ISAF 2020<font style="font-size:10rem" color="#EF3340">&raquo;</font></h3>
-	  <p>114. Innerschweizer Schwing- &amp; &Auml;lplerfest</p>
-	  <p>5. Juli 2020 in Ibach-Schwyz</p>
-      <footer>
-        <ul class="nospace inline pushright">
-          <li><a class="btn" href="#">Morbi fringilla</a></li>
-          <li><a class="btn inverse" href="#">Nec convallis</a></li>
-        </ul>
-      </footer>
-    </article>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <div class="wrapper row3">
   <div id="schwung_ol"><img src="<%sol%>"></div>
-  <div id="schwung_ur"><img src="<%sur%>"></div>
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
             <!--<h6 class="heading"><font style="font-size:36px" color="#EF3340">&laquo;</font>Veranstalter<font style="font-size:36px" color="#EF3340">&raquo;</font></h6>-->
 			<h6 class="heading">Veranstalter</h6> 
-      <p>Schwingerverband am Mythen<br><a href="http://www.mythenverband.ch/">Homepage</a></p>
+      <p>Schwingerverband am Mythen<br>
+	  <a href="http://www.mythenverband.ch/"><img src="/images/svam.gif" alt=""></a><br>
+	  <a href="http://www.mythenverband.ch/">Homepage</a></p>
     </div>
     <ul class="nospace group services">
       <li class="one_quarter first">
@@ -56,10 +36,112 @@
         <article><i class="fa fa-users"></i>
           <h6 class="heading">Teilnehmer</h6>
           <p><b>ca. 200 Schwinger und 50 Steinstösser</b> aus der Innerschweiz und der übrigen Schweiz</p>
-          <footer><a class="btn" href="#">Teilnehmerliste</a></footer>
+          <!--<footer><a class="btn" href="#">Teilnehmerliste</a></footer>-->
         </article>
       </li>	  
     </ul>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+
+
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!--<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/mythen.jpg');">-->
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/mythen.jpg');">
+  <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+      <h3 class="heading"><font style="font-size:10rem" color="#EF3340">&laquo;</font>ISAF 2020<font style="font-size:10rem" color="#EF3340">&raquo;</font></h3>
+	  <p>114. Innerschweizer Schwing- &amp; &Auml;lplerfest</p>
+	  <p>5. Juli 2020 in Ibach-Schwyz</p>
+      <!--<footer>
+        <ul class="nospace inline pushright">
+          <li><a class="btn" href="#">Morbi fringilla</a></li>
+          <li><a class="btn inverse" href="#">Nec convallis</a></li>
+        </ul>
+      </footer>-->
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrapper row3">
+  <div id="schwung_ur"><img src="<%sur%>"></div>
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+	  
+      <h6 class="heading" style="font-size:2em">Helfer</h6>
+      <div class="group btmspace-50 demo">
+        <div class="one_half first">
+		
+		      <p> Für den Auf- und Abbau der Schwingerarena und deren Infrastruktur, sowie für den Festtag selbst, sind wir auf zusätzliche Helferinnen und Helfer angewiesen.  Wir rechnen mit ca. 15'000 Helferstunden die nötig sind um diesen Anlass durchzuführen.  Es gibt die Möglichkeit sich als Verein (es wurden ca. 70 angeschrieben) oder als einzelne Person zur Verfügung zu stellen. Neben einem Helfer T-Shirt und der Verpflegung, wird dem Verein mind. 5 CHF bis 10 CHF (im Falle von positivem Finanzergebnis) für jede geleistete Helferstunde ausbezahlt. Einzelne Personen werden nach dem Anlass zu einem Helferabend eingeladen. Bei allfälligen Fragen steht Ihnen der Personalchef via E-Mail gerne zur Verfügung.</p>
+	  
+	  <!--<ul class="nospace inline pushright">
+        <li><a class="btn" href="/images//images/ISAF2020_Helfer_Anmeldeformular.pdf">Anmeldeformular (PDF)</a></li>
+      </ul>-->
+	  
+	  <p>Roman Schelbert, Personalchef | <strong><script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature coded by Andrew Moulden
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "u2DQq.01atBVtuv@Y0Qhypyp.1a"
+  key = "Hg2Dq9YtJjGu8MNFa3SOW41xfB0b6yEKTwvXUomnAieQkLr7C5RhZpVPzcIdls"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {     
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>E-Mail</a>")
+}
+//-->
+</script><noscript>Sorry, you need Javascript on to email me.</noscript></strong></p>
+		
+		</div>
+        <div class="one_half overlay"><!--<a href="/images/ISAF2020_Helfer_Anmeldeformular.pdf">--><img src="/images/helfer.jpg" alt""><!--</a>--></div>
+      </div>
+	  </div>
+      <!-- ################################################################################################ -->
+    </div>
     <!-- ################################################################################################ -->
     <!-- / main body -->
     <div class="clear"></div>
@@ -106,6 +188,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+
 <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/03.png');">
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
@@ -129,6 +212,7 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+
 <div class="wrapper row3">
   <div class="hoc container clear"> 
     <!-- ################################################################################################ -->
