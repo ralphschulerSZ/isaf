@@ -71,13 +71,12 @@ function schwungVisible() {
 		</li>
         <li <%actsponsoren%>><a class="menurw" href="/sponsoren">Sponsoren</a>
           <ul>
-            <li><a href="/fest-partner">Fest-Partner</a></li>
-            <li><a href="/schwing-partner">Schwing-Partner</a></li>
-			<li><a href="/kranz-partner">Kranz-Partner</a></li>
-			<li><a href="/personal-partner">Personal-Partner</a></li>
-			<li><a href="/arena-partner">Arena-Partner</a></li>
-			<li><a href="/ring-partner">Ring-Partner</a></li>
-			<li><a href="/medien-partner">Medien-Partner</a></li>			
+            <li><a href="/#">Hauptsponsor</a></li>
+            <li><a href="/#">Kranzsponsor</a></li>
+			<li><a href="/#">Arena-Partner</a></li>
+			<li><a href="/#">Ring-Partner</a></li>
+			<li><a href="/#">Medienpartner</a></li>
+			<li><a href="/#">Bekleidungssponsor</a></li>
           </ul>		
 		</li>
         <li <%actkontakt%>><a class="menurw" href="#">Kontakt</a>
