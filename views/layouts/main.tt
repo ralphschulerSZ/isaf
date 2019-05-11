@@ -123,11 +123,11 @@ $(window).scroll(function() {
 
 <% content %>
 
-<div class="wrapper row6">
+<!--<div class="wrapper row6">
   <footer id="footer1" class="hoc clear"> 
     <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAGQCAQAAADFUcJQAAAAFElEQVR42mNkYGAcRaNoFI2ioYAAsLUBkdmEbfIAAAAASUVORK5CYII=" alt=""></div>
   </footer>
-</div>
+</div>-->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
