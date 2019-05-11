@@ -83,7 +83,12 @@ get '/' => sub {
 	my $pic = "/images/Titelbild_01.jpg";
 	my $sol = genrandschwungol();
 	my $sur = genrandschwungur();
-	template 'home' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
+	my $festdatum = 1593900000;
+	my $heute     = time();
+	my $diff      = $festdatum - $heute;
+	my $nochtage  = int($diff / 86400);
+	
+	template 'home' => { 'title' => 'ISAF 2020 - Innerschweizer Schwing- und &Auml;lperfest, Ibach-Schwyz', 'acthome' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur, 'nochtage' => $nochtage};
 };
 get '/homeorig' => sub {
 	my $pic = genrandompic();
@@ -101,7 +106,11 @@ get '/festinfos' => sub {
 	my $pic = genrandompic();
 	my $sol = genrandschwungol();
 	my $sur = genrandschwungur();
-	template 'festinfos' => { 'title' => 'Festinfos - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur};
+	my $festdatum = 1593900000;
+	my $heute     = time();
+	my $diff      = $festdatum - $heute;
+	my $nochtage  = int($diff / 86400);
+	template 'festinfos' => { 'title' => 'Festinfos - ISAF2020', 'actbesucher_helfer' => 'class="active"', 'titelbild' => $pic, 'sol' => $sol, 'sur' => $sur, 'nochtage' => $nochtage};
 };
 get '/festprogramm' => sub {
 	my $pic = genrandompic();

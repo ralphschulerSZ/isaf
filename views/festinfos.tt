@@ -11,7 +11,7 @@
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Veranstalter</h6>
+	<h6 class="heading" style="font-size:2em">Veranstalter</h6>
       <p>Schwingerverband am Mythen<br>
 	  <a href="http://www.mythenverband.ch/"><img src="/images/svam.gif" alt=""></a><br>
 	  <a href="http://www.mythenverband.ch/">Homepage</a></p>
@@ -20,25 +20,26 @@
       <li class="one_quarter first">
         <article><i class="fa fa-calendar"></i>
           <h6 class="heading">Festdatum</h6>
-          <p><b>Sonntag, 5. Juli 2020</b></p>
+          <p><strong>Sonntag, 5. Juli 2020</strong></p>
+		  <p>noch <strong><%nochtage%></strong> Tage bis zum Fest</p>
         </article>
       </li>
       <li class="one_quarter">
         <article><i class="fa fa-flag"></i>
           <h6 class="heading">Festareal</h6>
-          <p><b>Sportanlage Wintersried</b><br>Muotatstrasse 82<br>6438 Ibach</p>
+          <p><strong>Sportanlage Wintersried</strong><br>Muotatstrasse 82<br>6438 Ibach</p>
         </article>
       </li>
       <li class="one_quarter">
         <article><i class="fa fa-ticket"></i>
           <h6 class="heading">Arena</h6>
-          <p>Tribünen- und Rasensitzplätze für <b>ca. 12‘000 Zuschauer</b></p>
+          <p>Tribünen- und Rasensitzplätze für <strong>ca. 12‘000 Zuschauer</strong></p>
         </article>
       </li>
       <li class="one_quarter">
         <article><i class="fa fa-users"></i>
           <h6 class="heading">Teilnehmer</h6>
-          <p><b>ca. 200 Schwinger und 50 Steinstösser</b> aus der Innerschweiz und der übrigen Schweiz</p>
+          <p><strong>ca. 200 Schwinger und 50 Steinstösser</strong> aus der Innerschweiz und der übrigen Schweiz</p>
           <!--<footer><a class="btn" href="#">Teilnehmerliste</a></footer>-->
         </article>
       </li>	  
